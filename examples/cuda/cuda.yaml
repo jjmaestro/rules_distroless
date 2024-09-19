@@ -12,16 +12,14 @@ version: 1
 sources:
   - channel: ubuntu2004/x86_64/
     url: https://developer.download.nvidia.com/compute/cuda/repos
-  - channel: ubuntu2004/arm64/
-    url: https://developer.download.nvidia.com/compute/cuda/repos
   - channel: focal main
     url: https://snapshot.ubuntu.com/ubuntu/20240301T030400Z
 
 archs:
   - amd64
-  - arm64
 
 packages:
   - dpkg
   - apt
   - cuda-11-8
+  - cudnn9-cuda-11-8
