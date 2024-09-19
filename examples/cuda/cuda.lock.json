@@ -1,0 +1,4553 @@
+{
+	"packages": {
+		"adduser": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "adduser",
+				"sha256": "5f7ea9d1d52a2a9c349468f89d160230e21c8542faed1b1a97c23bce873e17b4",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/a/adduser/adduser_3.118ubuntu2_all.deb",
+				"version": "3.118ubuntu2"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "adduser",
+				"sha256": "5f7ea9d1d52a2a9c349468f89d160230e21c8542faed1b1a97c23bce873e17b4",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/a/adduser/adduser_3.118ubuntu2_all.deb",
+				"version": "3.118ubuntu2"
+			}
+		},
+		"apt": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [
+					{
+						"name": "adduser",
+						"version": "3.118ubuntu2"
+					},
+					{
+						"name": "gcc-10-base",
+						"version": "10-20200411-0ubuntu1"
+					},
+					{
+						"name": "libapt-pkg6.0",
+						"version": "2.0.2"
+					},
+					{
+						"name": "libaudit-common",
+						"version": "1:2.8.5-2ubuntu6"
+					},
+					{
+						"name": "libaudit1",
+						"version": "1:2.8.5-2ubuntu6"
+					},
+					{
+						"name": "libbz2-1.0",
+						"version": "1.0.8-2"
+					},
+					{
+						"name": "libc6",
+						"version": "2.31-0ubuntu9"
+					},
+					{
+						"name": "libcap-ng0",
+						"version": "0.7.9-2.1build1"
+					},
+					{
+						"name": "libcrypt1",
+						"version": "1:4.4.10-10ubuntu4"
+					},
+					{
+						"name": "libdb5.3",
+						"version": "5.3.28+dfsg1-0.6ubuntu2"
+					},
+					{
+						"name": "libffi7",
+						"version": "3.3-4"
+					},
+					{
+						"name": "libgcc-s1",
+						"version": "10-20200411-0ubuntu1"
+					},
+					{
+						"name": "libgcrypt20",
+						"version": "1.8.5-5ubuntu1"
+					},
+					{
+						"name": "libgmp10",
+						"version": "2:6.2.0+dfsg-4"
+					},
+					{
+						"name": "libgnutls30",
+						"version": "3.6.13-2ubuntu1"
+					},
+					{
+						"name": "libgpg-error0",
+						"version": "1.37-1"
+					},
+					{
+						"name": "libhogweed5",
+						"version": "3.5.1+really3.5.1-2"
+					},
+					{
+						"name": "libidn2-0",
+						"version": "2.2.0-2"
+					},
+					{
+						"name": "liblz4-1",
+						"version": "1.9.2-2"
+					},
+					{
+						"name": "liblzma5",
+						"version": "5.2.4-1"
+					},
+					{
+						"name": "libnettle7",
+						"version": "3.5.1+really3.5.1-2"
+					},
+					{
+						"name": "libp11-kit0",
+						"version": "0.23.20-1build1"
+					},
+					{
+						"name": "libpam-modules",
+						"version": "1.3.1-5ubuntu4"
+					},
+					{
+						"name": "libpam-modules-bin",
+						"version": "1.3.1-5ubuntu4"
+					},
+					{
+						"name": "libpam0g",
+						"version": "1.3.1-5ubuntu4"
+					},
+					{
+						"name": "libpcre2-8-0",
+						"version": "10.34-7"
+					},
+					{
+						"name": "libseccomp2",
+						"version": "2.4.3-1ubuntu1"
+					},
+					{
+						"name": "libselinux1",
+						"version": "3.0-1build2"
+					},
+					{
+						"name": "libsemanage-common",
+						"version": "3.0-1build2"
+					},
+					{
+						"name": "libsemanage1",
+						"version": "3.0-1build2"
+					},
+					{
+						"name": "libsepol1",
+						"version": "3.0-1"
+					},
+					{
+						"name": "libstdc++6",
+						"version": "10-20200411-0ubuntu1"
+					},
+					{
+						"name": "libsystemd0",
+						"version": "245.4-4ubuntu3"
+					},
+					{
+						"name": "libtasn1-6",
+						"version": "4.16.0-2"
+					},
+					{
+						"name": "libudev1",
+						"version": "245.4-4ubuntu3"
+					},
+					{
+						"name": "libunistring2",
+						"version": "0.9.10-2"
+					},
+					{
+						"name": "libzstd1",
+						"version": "1.4.4+dfsg-3"
+					},
+					{
+						"name": "passwd",
+						"version": "1:4.8.1-1ubuntu5"
+					},
+					{
+						"name": "ubuntu-keyring",
+						"version": "2020.02.11.2"
+					},
+					{
+						"name": "zlib1g",
+						"version": "1:1.2.11.dfsg-2ubuntu1"
+					}
+				],
+				"name": "apt",
+				"sha256": "bc96088b0253a9bc41410a44f53c907c6d9bc9f210768ab2ef0bb63d5e22dfc3",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/a/apt/apt_2.0.2_amd64.deb",
+				"version": "2.0.2"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [
+					{
+						"name": "adduser",
+						"version": "3.118ubuntu2"
+					},
+					{
+						"name": "gcc-10-base",
+						"version": "10-20200411-0ubuntu1"
+					},
+					{
+						"name": "libapt-pkg6.0",
+						"version": "2.0.2"
+					},
+					{
+						"name": "libaudit-common",
+						"version": "1:2.8.5-2ubuntu6"
+					},
+					{
+						"name": "libaudit1",
+						"version": "1:2.8.5-2ubuntu6"
+					},
+					{
+						"name": "libbz2-1.0",
+						"version": "1.0.8-2"
+					},
+					{
+						"name": "libc6",
+						"version": "2.31-0ubuntu9"
+					},
+					{
+						"name": "libcap-ng0",
+						"version": "0.7.9-2.1build1"
+					},
+					{
+						"name": "libcrypt1",
+						"version": "1:4.4.10-10ubuntu4"
+					},
+					{
+						"name": "libdb5.3",
+						"version": "5.3.28+dfsg1-0.6ubuntu2"
+					},
+					{
+						"name": "libffi7",
+						"version": "3.3-4"
+					},
+					{
+						"name": "libgcc-s1",
+						"version": "10-20200411-0ubuntu1"
+					},
+					{
+						"name": "libgcrypt20",
+						"version": "1.8.5-5ubuntu1"
+					},
+					{
+						"name": "libgmp10",
+						"version": "2:6.2.0+dfsg-4"
+					},
+					{
+						"name": "libgnutls30",
+						"version": "3.6.13-2ubuntu1"
+					},
+					{
+						"name": "libgpg-error0",
+						"version": "1.37-1"
+					},
+					{
+						"name": "libhogweed5",
+						"version": "3.5.1+really3.5.1-2"
+					},
+					{
+						"name": "libidn2-0",
+						"version": "2.2.0-2"
+					},
+					{
+						"name": "liblz4-1",
+						"version": "1.9.2-2"
+					},
+					{
+						"name": "liblzma5",
+						"version": "5.2.4-1"
+					},
+					{
+						"name": "libnettle7",
+						"version": "3.5.1+really3.5.1-2"
+					},
+					{
+						"name": "libp11-kit0",
+						"version": "0.23.20-1build1"
+					},
+					{
+						"name": "libpam-modules",
+						"version": "1.3.1-5ubuntu4"
+					},
+					{
+						"name": "libpam-modules-bin",
+						"version": "1.3.1-5ubuntu4"
+					},
+					{
+						"name": "libpam0g",
+						"version": "1.3.1-5ubuntu4"
+					},
+					{
+						"name": "libpcre2-8-0",
+						"version": "10.34-7"
+					},
+					{
+						"name": "libseccomp2",
+						"version": "2.4.3-1ubuntu1"
+					},
+					{
+						"name": "libselinux1",
+						"version": "3.0-1build2"
+					},
+					{
+						"name": "libsemanage-common",
+						"version": "3.0-1build2"
+					},
+					{
+						"name": "libsemanage1",
+						"version": "3.0-1build2"
+					},
+					{
+						"name": "libsepol1",
+						"version": "3.0-1"
+					},
+					{
+						"name": "libstdc++6",
+						"version": "10-20200411-0ubuntu1"
+					},
+					{
+						"name": "libsystemd0",
+						"version": "245.4-4ubuntu3"
+					},
+					{
+						"name": "libtasn1-6",
+						"version": "4.16.0-2"
+					},
+					{
+						"name": "libudev1",
+						"version": "245.4-4ubuntu3"
+					},
+					{
+						"name": "libunistring2",
+						"version": "0.9.10-2"
+					},
+					{
+						"name": "libzstd1",
+						"version": "1.4.4+dfsg-3"
+					},
+					{
+						"name": "passwd",
+						"version": "1:4.8.1-1ubuntu5"
+					},
+					{
+						"name": "ubuntu-keyring",
+						"version": "2020.02.11.2"
+					},
+					{
+						"name": "zlib1g",
+						"version": "1:1.2.11.dfsg-2ubuntu1"
+					}
+				],
+				"name": "apt",
+				"sha256": "ffe4f18634501771fca1233025cb446f3a74e1a5349146162bec55598860392b",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/a/apt/apt_2.0.2_arm64.deb",
+				"version": "2.0.2"
+			}
+		},
+		"binutils": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "binutils",
+				"sha256": "f62b4893a49048d1378ab3ea0c5653af396925319f7695071e6d371dd29147fb",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/b/binutils/binutils_2.34-6ubuntu1_amd64.deb",
+				"version": "2.34-6ubuntu1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "binutils",
+				"sha256": "c55c708736a8695d159438656f8abd64dd56508c2bd64052d97424b67c8a6845",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/b/binutils/binutils_2.34-6ubuntu1_arm64.deb",
+				"version": "2.34-6ubuntu1"
+			}
+		},
+		"binutils-aarch64-linux-gnu": {
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "binutils-aarch64-linux-gnu",
+				"sha256": "01170efae77aa1d3582fa5569a0e0813f08177e613e7041a1a515ac403fbe9aa",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/b/binutils/binutils-aarch64-linux-gnu_2.34-6ubuntu1_arm64.deb",
+				"version": "2.34-6ubuntu1"
+			}
+		},
+		"binutils-common": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "binutils-common",
+				"sha256": "f203d3b9c623185944a151bb4513538c6b08a105d92696d4ef74a533de8a6641",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/b/binutils/binutils-common_2.34-6ubuntu1_amd64.deb",
+				"version": "2.34-6ubuntu1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "binutils-common",
+				"sha256": "9cbdd2f499e97c09f13a8df349ea96ee0be2a8b2e125071b013618db322e6fd7",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/b/binutils/binutils-common_2.34-6ubuntu1_arm64.deb",
+				"version": "2.34-6ubuntu1"
+			}
+		},
+		"binutils-x86-64-linux-gnu": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "binutils-x86-64-linux-gnu",
+				"sha256": "ae3a254fe8073bb581e4fefcdc4d2b9d5a798f9b1f669e1d737d6fdc118f37df",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/b/binutils/binutils-x86-64-linux-gnu_2.34-6ubuntu1_amd64.deb",
+				"version": "2.34-6ubuntu1"
+			}
+		},
+		"build-essential": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "build-essential",
+				"sha256": "6292fa54511a0d1c0f8c798de35e23318375de006a5df9a7c3369d7d9d7afa84",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/b/build-essential/build-essential_12.8ubuntu1_amd64.deb",
+				"version": "12.8ubuntu1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "build-essential",
+				"sha256": "9706d895ce47d0bdd7ec1463657e59b63c4ae4f0fcc03365f4226cd67ddfa7fd",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/b/build-essential/build-essential_12.8ubuntu1_arm64.deb",
+				"version": "12.8ubuntu1"
+			}
+		},
+		"bzip2": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "bzip2",
+				"sha256": "9201778f5a3bd4ff685d41cd677660129e57c544b7526f20ff8c48318c63dbe8",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/b/bzip2/bzip2_1.0.8-2_amd64.deb",
+				"version": "1.0.8-2"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "bzip2",
+				"sha256": "5958c36c6f3364f41db06b87acfd0df12cd4007a147954c10aa6f2b8d65fa8e1",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/b/bzip2/bzip2_1.0.8-2_arm64.deb",
+				"version": "1.0.8-2"
+			}
+		},
+		"coreutils": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "coreutils",
+				"sha256": "99aa50af84de1737735f2f51e570d60f5842aa1d4a3129527906e7ffda368853",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/c/coreutils/coreutils_8.30-3ubuntu2_amd64.deb",
+				"version": "8.30-3ubuntu2"
+			}
+		},
+		"cpp": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cpp",
+				"sha256": "6a29410b6f9a6f1f6b3fe93d0b994e56293126962950bb1c9bbf0a8909044b03",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-defaults/cpp_9.3.0-1ubuntu2_amd64.deb",
+				"version": "4:9.3.0-1ubuntu2"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "cpp",
+				"sha256": "ddd83313afe0f05c57b321a9a1c7318d8fa022902bce2e4da15ecff8268f4d6b",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-defaults/cpp_9.3.0-1ubuntu2_arm64.deb",
+				"version": "4:9.3.0-1ubuntu2"
+			}
+		},
+		"cpp-9": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cpp-9",
+				"sha256": "5fc51c3a1afe2288441d72197ecf385668423121ae0890171aeba4f5f0be1247",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-9/cpp-9_9.3.0-10ubuntu2_amd64.deb",
+				"version": "9.3.0-10ubuntu2"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "cpp-9",
+				"sha256": "1fcdf8b70fe621c72b2060c967e1c8e72881b6d19adec2a5363ba48451362a8f",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-9/cpp-9_9.3.0-10ubuntu2_arm64.deb",
+				"version": "9.3.0-10ubuntu2"
+			}
+		},
+		"cuda-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [
+					{
+						"name": "binutils",
+						"version": "2.34-6ubuntu1"
+					},
+					{
+						"name": "binutils-common",
+						"version": "2.34-6ubuntu1"
+					},
+					{
+						"name": "binutils-x86-64-linux-gnu",
+						"version": "2.34-6ubuntu1"
+					},
+					{
+						"name": "build-essential",
+						"version": "12.8ubuntu1"
+					},
+					{
+						"name": "bzip2",
+						"version": "1.0.8-2"
+					},
+					{
+						"name": "coreutils",
+						"version": "8.30-3ubuntu2"
+					},
+					{
+						"name": "cpp",
+						"version": "4:9.3.0-1ubuntu2"
+					},
+					{
+						"name": "cpp-9",
+						"version": "9.3.0-10ubuntu2"
+					},
+					{
+						"name": "cuda-cccl-11-8",
+						"version": "11.8.89-1"
+					},
+					{
+						"name": "cuda-command-line-tools-11-8",
+						"version": "11.8.0-1"
+					},
+					{
+						"name": "cuda-compiler-11-8",
+						"version": "11.8.0-1"
+					},
+					{
+						"name": "cuda-cudart-11-8",
+						"version": "11.8.89-1"
+					},
+					{
+						"name": "cuda-cudart-dev-11-8",
+						"version": "11.8.89-1"
+					},
+					{
+						"name": "cuda-cuobjdump-11-8",
+						"version": "11.8.86-1"
+					},
+					{
+						"name": "cuda-cupti-11-8",
+						"version": "11.8.87-1"
+					},
+					{
+						"name": "cuda-cupti-dev-11-8",
+						"version": "11.8.87-1"
+					},
+					{
+						"name": "cuda-cuxxfilt-11-8",
+						"version": "11.8.86-1"
+					},
+					{
+						"name": "cuda-demo-suite-11-8",
+						"version": "11.8.86-1"
+					},
+					{
+						"name": "cuda-documentation-11-8",
+						"version": "11.8.86-1"
+					},
+					{
+						"name": "cuda-driver-dev-11-8",
+						"version": "11.8.89-1"
+					},
+					{
+						"name": "cuda-drivers",
+						"version": "560.35.03-1"
+					},
+					{
+						"name": "cuda-drivers-560",
+						"version": "560.35.03-1"
+					},
+					{
+						"name": "cuda-gdb-11-8",
+						"version": "11.8.86-1"
+					},
+					{
+						"name": "cuda-libraries-11-8",
+						"version": "11.8.0-1"
+					},
+					{
+						"name": "cuda-libraries-dev-11-8",
+						"version": "11.8.0-1"
+					},
+					{
+						"name": "cuda-memcheck-11-8",
+						"version": "11.8.86-1"
+					},
+					{
+						"name": "cuda-nsight-11-8",
+						"version": "11.8.86-1"
+					},
+					{
+						"name": "cuda-nsight-compute-11-8",
+						"version": "11.8.0-1"
+					},
+					{
+						"name": "cuda-nsight-systems-11-8",
+						"version": "11.8.0-1"
+					},
+					{
+						"name": "cuda-nvcc-11-8",
+						"version": "11.8.89-1"
+					},
+					{
+						"name": "cuda-nvdisasm-11-8",
+						"version": "11.8.86-1"
+					},
+					{
+						"name": "cuda-nvml-dev-11-8",
+						"version": "11.8.86-1"
+					},
+					{
+						"name": "cuda-nvprof-11-8",
+						"version": "11.8.87-1"
+					},
+					{
+						"name": "cuda-nvprune-11-8",
+						"version": "11.8.86-1"
+					},
+					{
+						"name": "cuda-nvrtc-11-8",
+						"version": "11.8.89-1"
+					},
+					{
+						"name": "cuda-nvrtc-dev-11-8",
+						"version": "11.8.89-1"
+					},
+					{
+						"name": "cuda-nvtx-11-8",
+						"version": "11.8.86-1"
+					},
+					{
+						"name": "cuda-nvvp-11-8",
+						"version": "11.8.87-1"
+					},
+					{
+						"name": "cuda-profiler-api-11-8",
+						"version": "11.8.86-1"
+					},
+					{
+						"name": "cuda-runtime-11-8",
+						"version": "11.8.0-1"
+					},
+					{
+						"name": "cuda-sanitizer-11-8",
+						"version": "11.8.86-1"
+					},
+					{
+						"name": "cuda-toolkit-11-8",
+						"version": "11.8.0-1"
+					},
+					{
+						"name": "cuda-toolkit-11-8-config-common",
+						"version": "11.8.89-1"
+					},
+					{
+						"name": "cuda-tools-11-8",
+						"version": "11.8.0-1"
+					},
+					{
+						"name": "cuda-visual-tools-11-8",
+						"version": "11.8.0-1"
+					},
+					{
+						"name": "debconf",
+						"version": "1.5.73"
+					},
+					{
+						"name": "dpkg",
+						"version": "1.19.7ubuntu3"
+					},
+					{
+						"name": "dpkg-dev",
+						"version": "1.19.7ubuntu3"
+					},
+					{
+						"name": "fontconfig-config",
+						"version": "2.13.1-2ubuntu3"
+					},
+					{
+						"name": "g++",
+						"version": "4:9.3.0-1ubuntu2"
+					},
+					{
+						"name": "g++-9",
+						"version": "9.3.0-10ubuntu2"
+					},
+					{
+						"name": "gcc",
+						"version": "4:9.3.0-1ubuntu2"
+					},
+					{
+						"name": "gcc-10-base",
+						"version": "10-20200411-0ubuntu1"
+					},
+					{
+						"name": "gcc-9",
+						"version": "9.3.0-10ubuntu2"
+					},
+					{
+						"name": "gcc-9-base",
+						"version": "9.3.0-10ubuntu2"
+					},
+					{
+						"name": "gds-tools-11-8",
+						"version": "1.4.0.31-1"
+					},
+					{
+						"name": "libacl1",
+						"version": "2.2.53-6"
+					},
+					{
+						"name": "libasan5",
+						"version": "9.3.0-10ubuntu2"
+					},
+					{
+						"name": "libatomic1",
+						"version": "10-20200411-0ubuntu1"
+					},
+					{
+						"name": "libattr1",
+						"version": "1:2.4.48-5"
+					},
+					{
+						"name": "libbinutils",
+						"version": "2.34-6ubuntu1"
+					},
+					{
+						"name": "libblkid1",
+						"version": "2.34-0.1ubuntu9"
+					},
+					{
+						"name": "libbsd0",
+						"version": "0.10.0-1"
+					},
+					{
+						"name": "libbz2-1.0",
+						"version": "1.0.8-2"
+					},
+					{
+						"name": "libc-dev-bin",
+						"version": "2.31-0ubuntu9"
+					},
+					{
+						"name": "libc6",
+						"version": "2.31-0ubuntu9"
+					},
+					{
+						"name": "libc6-dev",
+						"version": "2.31-0ubuntu9"
+					},
+					{
+						"name": "libcairo2",
+						"version": "1.16.0-4ubuntu1"
+					},
+					{
+						"name": "libcc1-0",
+						"version": "10-20200411-0ubuntu1"
+					},
+					{
+						"name": "libcrypt-dev",
+						"version": "1:4.4.10-10ubuntu4"
+					},
+					{
+						"name": "libcrypt1",
+						"version": "1:4.4.10-10ubuntu4"
+					},
+					{
+						"name": "libctf-nobfd0",
+						"version": "2.34-6ubuntu1"
+					},
+					{
+						"name": "libctf0",
+						"version": "2.34-6ubuntu1"
+					},
+					{
+						"name": "libcublas-11-8",
+						"version": "11.11.3.6-1"
+					},
+					{
+						"name": "libcublas-dev-11-8",
+						"version": "11.11.3.6-1"
+					},
+					{
+						"name": "libcufft-11-8",
+						"version": "10.9.0.58-1"
+					},
+					{
+						"name": "libcufft-dev-11-8",
+						"version": "10.9.0.58-1"
+					},
+					{
+						"name": "libcufile-11-8",
+						"version": "1.4.0.31-1"
+					},
+					{
+						"name": "libcufile-dev-11-8",
+						"version": "1.4.0.31-1"
+					},
+					{
+						"name": "libcurand-11-8",
+						"version": "10.3.0.86-1"
+					},
+					{
+						"name": "libcurand-dev-11-8",
+						"version": "10.3.0.86-1"
+					},
+					{
+						"name": "libcusolver-11-8",
+						"version": "11.4.1.48-1"
+					},
+					{
+						"name": "libcusolver-dev-11-8",
+						"version": "11.4.1.48-1"
+					},
+					{
+						"name": "libcusparse-11-8",
+						"version": "11.7.5.86-1"
+					},
+					{
+						"name": "libcusparse-dev-11-8",
+						"version": "11.7.5.86-1"
+					},
+					{
+						"name": "libdb5.3",
+						"version": "5.3.28+dfsg1-0.6ubuntu2"
+					},
+					{
+						"name": "libdpkg-perl",
+						"version": "1.19.7ubuntu3"
+					},
+					{
+						"name": "libexpat1",
+						"version": "2.2.9-1build1"
+					},
+					{
+						"name": "libffi7",
+						"version": "3.3-4"
+					},
+					{
+						"name": "libfontconfig1",
+						"version": "2.13.1-2ubuntu3"
+					},
+					{
+						"name": "libfreetype6",
+						"version": "2.10.1-2"
+					},
+					{
+						"name": "libgcc-9-dev",
+						"version": "9.3.0-10ubuntu2"
+					},
+					{
+						"name": "libgcc-s1",
+						"version": "10-20200411-0ubuntu1"
+					},
+					{
+						"name": "libgdbm-compat4",
+						"version": "1.18.1-5"
+					},
+					{
+						"name": "libgdbm6",
+						"version": "1.18.1-5"
+					},
+					{
+						"name": "libglib2.0-0",
+						"version": "2.64.2-1~fakesync1"
+					},
+					{
+						"name": "libgmp10",
+						"version": "2:6.2.0+dfsg-4"
+					},
+					{
+						"name": "libgomp1",
+						"version": "10-20200411-0ubuntu1"
+					},
+					{
+						"name": "libisl22",
+						"version": "0.22.1-1"
+					},
+					{
+						"name": "libitm1",
+						"version": "10-20200411-0ubuntu1"
+					},
+					{
+						"name": "liblsan0",
+						"version": "10-20200411-0ubuntu1"
+					},
+					{
+						"name": "liblzma5",
+						"version": "5.2.4-1"
+					},
+					{
+						"name": "libmount1",
+						"version": "2.34-0.1ubuntu9"
+					},
+					{
+						"name": "libmpc3",
+						"version": "1.1.0-1"
+					},
+					{
+						"name": "libmpfr6",
+						"version": "4.0.2-1"
+					},
+					{
+						"name": "libnpp-11-8",
+						"version": "11.8.0.86-1"
+					},
+					{
+						"name": "libnpp-dev-11-8",
+						"version": "11.8.0.86-1"
+					},
+					{
+						"name": "libnuma1",
+						"version": "2.0.12-1"
+					},
+					{
+						"name": "libnvjpeg-11-8",
+						"version": "11.9.0.86-1"
+					},
+					{
+						"name": "libnvjpeg-dev-11-8",
+						"version": "11.9.0.86-1"
+					},
+					{
+						"name": "libpcre2-8-0",
+						"version": "10.34-7"
+					},
+					{
+						"name": "libpcre3",
+						"version": "2:8.39-12build1"
+					},
+					{
+						"name": "libperl5.30",
+						"version": "5.30.0-9build1"
+					},
+					{
+						"name": "libpixman-1-0",
+						"version": "0.38.4-0ubuntu1"
+					},
+					{
+						"name": "libpng16-16",
+						"version": "1.6.37-2"
+					},
+					{
+						"name": "libquadmath0",
+						"version": "10-20200411-0ubuntu1"
+					},
+					{
+						"name": "libselinux1",
+						"version": "3.0-1build2"
+					},
+					{
+						"name": "libssl1.1",
+						"version": "1.1.1f-1ubuntu2"
+					},
+					{
+						"name": "libstdc++-9-dev",
+						"version": "9.3.0-10ubuntu2"
+					},
+					{
+						"name": "libstdc++6",
+						"version": "10-20200411-0ubuntu1"
+					},
+					{
+						"name": "libtsan0",
+						"version": "10-20200411-0ubuntu1"
+					},
+					{
+						"name": "libubsan1",
+						"version": "10-20200411-0ubuntu1"
+					},
+					{
+						"name": "libudev1",
+						"version": "245.4-4ubuntu3"
+					},
+					{
+						"name": "libuuid1",
+						"version": "2.34-0.1ubuntu9"
+					},
+					{
+						"name": "libx11-6",
+						"version": "2:1.6.9-2ubuntu1"
+					},
+					{
+						"name": "libx11-data",
+						"version": "2:1.6.9-2ubuntu1"
+					},
+					{
+						"name": "libxau6",
+						"version": "1:1.0.9-0ubuntu1"
+					},
+					{
+						"name": "libxcb-icccm4",
+						"version": "0.4.1-1.1"
+					},
+					{
+						"name": "libxcb-image0",
+						"version": "0.4.0-1build1"
+					},
+					{
+						"name": "libxcb-keysyms1",
+						"version": "0.4.0-1build1"
+					},
+					{
+						"name": "libxcb-randr0",
+						"version": "1.14-2"
+					},
+					{
+						"name": "libxcb-render-util0",
+						"version": "0.3.9-1build1"
+					},
+					{
+						"name": "libxcb-render0",
+						"version": "1.14-2"
+					},
+					{
+						"name": "libxcb-shape0",
+						"version": "1.14-2"
+					},
+					{
+						"name": "libxcb-shm0",
+						"version": "1.14-2"
+					},
+					{
+						"name": "libxcb-util1",
+						"version": "0.4.0-0ubuntu3"
+					},
+					{
+						"name": "libxcb-xfixes0",
+						"version": "1.14-2"
+					},
+					{
+						"name": "libxcb-xinerama0",
+						"version": "1.14-2"
+					},
+					{
+						"name": "libxcb-xinput0",
+						"version": "1.14-2"
+					},
+					{
+						"name": "libxcb-xkb1",
+						"version": "1.14-2"
+					},
+					{
+						"name": "libxcb1",
+						"version": "1.14-2"
+					},
+					{
+						"name": "libxdmcp6",
+						"version": "1:1.1.3-0ubuntu1"
+					},
+					{
+						"name": "libxext6",
+						"version": "2:1.3.4-0ubuntu1"
+					},
+					{
+						"name": "libxkbcommon-x11-0",
+						"version": "0.10.0-1"
+					},
+					{
+						"name": "libxkbcommon0",
+						"version": "0.10.0-1"
+					},
+					{
+						"name": "libxrender1",
+						"version": "1:0.9.10-1"
+					},
+					{
+						"name": "libzstd1",
+						"version": "1.4.4+dfsg-3"
+					},
+					{
+						"name": "linux-libc-dev",
+						"version": "5.4.0-26.30"
+					},
+					{
+						"name": "make",
+						"version": "4.2.1-1.2"
+					},
+					{
+						"name": "nsight-compute-2022.3.0",
+						"version": "2022.3.0.22-1"
+					},
+					{
+						"name": "nsight-systems-2022.4.2",
+						"version": "2022.4.2.50-32196742v0"
+					},
+					{
+						"name": "openssl",
+						"version": "1.1.1f-1ubuntu2"
+					},
+					{
+						"name": "patch",
+						"version": "2.7.6-6"
+					},
+					{
+						"name": "perl",
+						"version": "5.30.0-9build1"
+					},
+					{
+						"name": "perl-base",
+						"version": "5.30.0-9build1"
+					},
+					{
+						"name": "perl-modules-5.30",
+						"version": "5.30.0-9build1"
+					},
+					{
+						"name": "sensible-utils",
+						"version": "0.0.12+nmu1"
+					},
+					{
+						"name": "tar",
+						"version": "1.30+dfsg-7"
+					},
+					{
+						"name": "ucf",
+						"version": "3.0038+nmu1"
+					},
+					{
+						"name": "xkb-data",
+						"version": "2.29-2"
+					},
+					{
+						"name": "xz-utils",
+						"version": "5.2.4-1"
+					},
+					{
+						"name": "zlib1g",
+						"version": "1:1.2.11.dfsg-2ubuntu1"
+					}
+				],
+				"name": "cuda-11-8",
+				"sha256": "88bafb34f4a8f26c725d86da698c3466cb1fbc9e233927b6ff9b58fb1602bba0",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-11-8_11.8.0-1_amd64.deb",
+				"version": "11.8.0-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [
+					{
+						"name": "binutils",
+						"version": "2.34-6ubuntu1"
+					},
+					{
+						"name": "binutils-aarch64-linux-gnu",
+						"version": "2.34-6ubuntu1"
+					},
+					{
+						"name": "binutils-common",
+						"version": "2.34-6ubuntu1"
+					},
+					{
+						"name": "build-essential",
+						"version": "12.8ubuntu1"
+					},
+					{
+						"name": "bzip2",
+						"version": "1.0.8-2"
+					},
+					{
+						"name": "cpp",
+						"version": "4:9.3.0-1ubuntu2"
+					},
+					{
+						"name": "cpp-9",
+						"version": "9.3.0-10ubuntu2"
+					},
+					{
+						"name": "cuda-cccl-11-8",
+						"version": "11.8.89-1"
+					},
+					{
+						"name": "cuda-command-line-tools-11-8",
+						"version": "11.8.0-1"
+					},
+					{
+						"name": "cuda-compat-11-8",
+						"version": "11.8.31339915-1"
+					},
+					{
+						"name": "cuda-compiler-11-8",
+						"version": "11.8.0-1"
+					},
+					{
+						"name": "cuda-cudart-11-8",
+						"version": "11.8.89-1"
+					},
+					{
+						"name": "cuda-cudart-dev-11-8",
+						"version": "11.8.89-1"
+					},
+					{
+						"name": "cuda-cuobjdump-11-8",
+						"version": "11.8.86-1"
+					},
+					{
+						"name": "cuda-cupti-11-8",
+						"version": "11.8.87-1"
+					},
+					{
+						"name": "cuda-cupti-dev-11-8",
+						"version": "11.8.87-1"
+					},
+					{
+						"name": "cuda-cuxxfilt-11-8",
+						"version": "11.8.86-1"
+					},
+					{
+						"name": "cuda-documentation-11-8",
+						"version": "11.8.86-1"
+					},
+					{
+						"name": "cuda-driver-dev-11-8",
+						"version": "11.8.89-1"
+					},
+					{
+						"name": "cuda-gdb-11-8",
+						"version": "11.8.86-1"
+					},
+					{
+						"name": "cuda-libraries-11-8",
+						"version": "11.8.0-1"
+					},
+					{
+						"name": "cuda-libraries-dev-11-8",
+						"version": "11.8.0-1"
+					},
+					{
+						"name": "cuda-nsight-compute-11-8",
+						"version": "11.8.0-1"
+					},
+					{
+						"name": "cuda-nvcc-11-8",
+						"version": "11.8.89-1"
+					},
+					{
+						"name": "cuda-nvdisasm-11-8",
+						"version": "11.8.86-1"
+					},
+					{
+						"name": "cuda-nvml-dev-11-8",
+						"version": "11.8.86-1"
+					},
+					{
+						"name": "cuda-nvprune-11-8",
+						"version": "11.8.86-1"
+					},
+					{
+						"name": "cuda-nvrtc-11-8",
+						"version": "11.8.89-1"
+					},
+					{
+						"name": "cuda-nvrtc-dev-11-8",
+						"version": "11.8.89-1"
+					},
+					{
+						"name": "cuda-nvtx-11-8",
+						"version": "11.8.86-1"
+					},
+					{
+						"name": "cuda-profiler-api-11-8",
+						"version": "11.8.86-1"
+					},
+					{
+						"name": "cuda-runtime-11-8",
+						"version": "11.8.0-1"
+					},
+					{
+						"name": "cuda-sanitizer-11-8",
+						"version": "11.8.86-1"
+					},
+					{
+						"name": "cuda-toolkit-11-8",
+						"version": "11.8.0-1"
+					},
+					{
+						"name": "cuda-toolkit-11-8-config-common",
+						"version": "11.8.89-1"
+					},
+					{
+						"name": "cuda-tools-11-8",
+						"version": "11.8.0-1"
+					},
+					{
+						"name": "cuda-visual-tools-11-8",
+						"version": "11.8.0-1"
+					},
+					{
+						"name": "dpkg",
+						"version": "1.19.7ubuntu3"
+					},
+					{
+						"name": "dpkg-dev",
+						"version": "1.19.7ubuntu3"
+					},
+					{
+						"name": "g++",
+						"version": "4:9.3.0-1ubuntu2"
+					},
+					{
+						"name": "g++-9",
+						"version": "9.3.0-10ubuntu2"
+					},
+					{
+						"name": "gcc",
+						"version": "4:9.3.0-1ubuntu2"
+					},
+					{
+						"name": "gcc-10-base",
+						"version": "10-20200411-0ubuntu1"
+					},
+					{
+						"name": "gcc-9",
+						"version": "9.3.0-10ubuntu2"
+					},
+					{
+						"name": "gcc-9-base",
+						"version": "9.3.0-10ubuntu2"
+					},
+					{
+						"name": "gds-tools-11-8",
+						"version": "1.4.0.31-1"
+					},
+					{
+						"name": "libacl1",
+						"version": "2.2.53-6"
+					},
+					{
+						"name": "libasan5",
+						"version": "9.3.0-10ubuntu2"
+					},
+					{
+						"name": "libatomic1",
+						"version": "10-20200411-0ubuntu1"
+					},
+					{
+						"name": "libbinutils",
+						"version": "2.34-6ubuntu1"
+					},
+					{
+						"name": "libblkid1",
+						"version": "2.34-0.1ubuntu9"
+					},
+					{
+						"name": "libbz2-1.0",
+						"version": "1.0.8-2"
+					},
+					{
+						"name": "libc-dev-bin",
+						"version": "2.31-0ubuntu9"
+					},
+					{
+						"name": "libc6",
+						"version": "2.31-0ubuntu9"
+					},
+					{
+						"name": "libc6-dev",
+						"version": "2.31-0ubuntu9"
+					},
+					{
+						"name": "libcc1-0",
+						"version": "10-20200411-0ubuntu1"
+					},
+					{
+						"name": "libcrypt-dev",
+						"version": "1:4.4.10-10ubuntu4"
+					},
+					{
+						"name": "libcrypt1",
+						"version": "1:4.4.10-10ubuntu4"
+					},
+					{
+						"name": "libctf-nobfd0",
+						"version": "2.34-6ubuntu1"
+					},
+					{
+						"name": "libctf0",
+						"version": "2.34-6ubuntu1"
+					},
+					{
+						"name": "libcublas-11-8",
+						"version": "11.11.3.6-1"
+					},
+					{
+						"name": "libcublas-dev-11-8",
+						"version": "11.11.3.6-1"
+					},
+					{
+						"name": "libcudla-11-8",
+						"version": "11.8.86-1"
+					},
+					{
+						"name": "libcudla-dev-11-8",
+						"version": "11.8.86-1"
+					},
+					{
+						"name": "libcufft-11-8",
+						"version": "10.9.0.58-1"
+					},
+					{
+						"name": "libcufft-dev-11-8",
+						"version": "10.9.0.58-1"
+					},
+					{
+						"name": "libcufile-11-8",
+						"version": "1.4.0.31-1"
+					},
+					{
+						"name": "libcufile-dev-11-8",
+						"version": "1.4.0.31-1"
+					},
+					{
+						"name": "libcurand-11-8",
+						"version": "10.3.0.86-1"
+					},
+					{
+						"name": "libcurand-dev-11-8",
+						"version": "10.3.0.86-1"
+					},
+					{
+						"name": "libcusolver-11-8",
+						"version": "11.4.1.48-1"
+					},
+					{
+						"name": "libcusolver-dev-11-8",
+						"version": "11.4.1.48-1"
+					},
+					{
+						"name": "libcusparse-11-8",
+						"version": "11.7.5.86-1"
+					},
+					{
+						"name": "libcusparse-dev-11-8",
+						"version": "11.7.5.86-1"
+					},
+					{
+						"name": "libdb5.3",
+						"version": "5.3.28+dfsg1-0.6ubuntu2"
+					},
+					{
+						"name": "libdpkg-perl",
+						"version": "1.19.7ubuntu3"
+					},
+					{
+						"name": "libgcc-9-dev",
+						"version": "9.3.0-10ubuntu2"
+					},
+					{
+						"name": "libgcc-s1",
+						"version": "10-20200411-0ubuntu1"
+					},
+					{
+						"name": "libgdbm-compat4",
+						"version": "1.18.1-5"
+					},
+					{
+						"name": "libgdbm6",
+						"version": "1.18.1-5"
+					},
+					{
+						"name": "libgmp10",
+						"version": "2:6.2.0+dfsg-4"
+					},
+					{
+						"name": "libgomp1",
+						"version": "10-20200411-0ubuntu1"
+					},
+					{
+						"name": "libisl22",
+						"version": "0.22.1-1"
+					},
+					{
+						"name": "libitm1",
+						"version": "10-20200411-0ubuntu1"
+					},
+					{
+						"name": "liblsan0",
+						"version": "10-20200411-0ubuntu1"
+					},
+					{
+						"name": "liblzma5",
+						"version": "5.2.4-1"
+					},
+					{
+						"name": "libmount1",
+						"version": "2.34-0.1ubuntu9"
+					},
+					{
+						"name": "libmpc3",
+						"version": "1.1.0-1"
+					},
+					{
+						"name": "libmpfr6",
+						"version": "4.0.2-1"
+					},
+					{
+						"name": "libnpp-11-8",
+						"version": "11.8.0.86-1"
+					},
+					{
+						"name": "libnpp-dev-11-8",
+						"version": "11.8.0.86-1"
+					},
+					{
+						"name": "libnuma1",
+						"version": "2.0.12-1"
+					},
+					{
+						"name": "libpcre2-8-0",
+						"version": "10.34-7"
+					},
+					{
+						"name": "libperl5.30",
+						"version": "5.30.0-9build1"
+					},
+					{
+						"name": "libselinux1",
+						"version": "3.0-1build2"
+					},
+					{
+						"name": "libssl1.1",
+						"version": "1.1.1f-1ubuntu2"
+					},
+					{
+						"name": "libstdc++-9-dev",
+						"version": "9.3.0-10ubuntu2"
+					},
+					{
+						"name": "libstdc++6",
+						"version": "10-20200411-0ubuntu1"
+					},
+					{
+						"name": "libtsan0",
+						"version": "10-20200411-0ubuntu1"
+					},
+					{
+						"name": "libubsan1",
+						"version": "10-20200411-0ubuntu1"
+					},
+					{
+						"name": "libudev1",
+						"version": "245.4-4ubuntu3"
+					},
+					{
+						"name": "libzstd1",
+						"version": "1.4.4+dfsg-3"
+					},
+					{
+						"name": "linux-libc-dev",
+						"version": "5.4.0-26.30"
+					},
+					{
+						"name": "make",
+						"version": "4.2.1-1.2"
+					},
+					{
+						"name": "nsight-compute-2022.3.0",
+						"version": "2022.3.0.22-1"
+					},
+					{
+						"name": "openssl",
+						"version": "1.1.1f-1ubuntu2"
+					},
+					{
+						"name": "patch",
+						"version": "2.7.6-6"
+					},
+					{
+						"name": "perl",
+						"version": "5.30.0-9build1"
+					},
+					{
+						"name": "perl-base",
+						"version": "5.30.0-9build1"
+					},
+					{
+						"name": "perl-modules-5.30",
+						"version": "5.30.0-9build1"
+					},
+					{
+						"name": "tar",
+						"version": "1.30+dfsg-7"
+					},
+					{
+						"name": "xz-utils",
+						"version": "5.2.4-1"
+					},
+					{
+						"name": "zlib1g",
+						"version": "1:1.2.11.dfsg-2ubuntu1"
+					}
+				],
+				"name": "cuda-11-8",
+				"sha256": "5dbfca5551d1f4983de36ae0d6a6beb8b2a88fd36499c468f928a24e90e67d87",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/cuda-11-8_11.8.0-1_arm64.deb",
+				"version": "11.8.0-1"
+			}
+		},
+		"cuda-cccl-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-cccl-11-8",
+				"sha256": "38dc61ecf5059b8b22dc7cae2e5aa1f09263b8b9295eb225f69b3d4d76778c53",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-cccl-11-8_11.8.89-1_amd64.deb",
+				"version": "11.8.89-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "cuda-cccl-11-8",
+				"sha256": "6e2c7702dfbb2ddc3ef2e291b26c3d993a6ef5e382a8ba78bf6d50b9b57feab8",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/cuda-cccl-11-8_11.8.89-1_arm64.deb",
+				"version": "11.8.89-1"
+			}
+		},
+		"cuda-command-line-tools-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-command-line-tools-11-8",
+				"sha256": "fc99b52938b7c3e86684c4bd1fedf359058791df442db185a1089938ac2b1edf",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-command-line-tools-11-8_11.8.0-1_amd64.deb",
+				"version": "11.8.0-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "cuda-command-line-tools-11-8",
+				"sha256": "4949ffd86ae77a68d46bdb1eb74c57c3397071aa488cc8bea56948bf63f23b3b",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/cuda-command-line-tools-11-8_11.8.0-1_arm64.deb",
+				"version": "11.8.0-1"
+			}
+		},
+		"cuda-compat-11-8": {
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "cuda-compat-11-8",
+				"sha256": "3014fc6796b2d693c09385c8561b87c4850294b59b5cff986f7813f2f3921cfa",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/cuda-compat-11-8_11.8.31339915-1_arm64.deb",
+				"version": "11.8.31339915-1"
+			}
+		},
+		"cuda-compiler-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-compiler-11-8",
+				"sha256": "4b4581a57177eb2d92ec092c492625236e6fb81bcad1ca2cf53462dd1264cdae",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-compiler-11-8_11.8.0-1_amd64.deb",
+				"version": "11.8.0-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "cuda-compiler-11-8",
+				"sha256": "150aeb22b24c16aa81ebb3c4331d4fff95e98babdf9409d72935d94d64b2e658",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/cuda-compiler-11-8_11.8.0-1_arm64.deb",
+				"version": "11.8.0-1"
+			}
+		},
+		"cuda-cudart-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-cudart-11-8",
+				"sha256": "4f603955b63d228e980f14f32dbdabcfa154f4b9659dcc222b746a6c4f450239",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-cudart-11-8_11.8.89-1_amd64.deb",
+				"version": "11.8.89-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "cuda-cudart-11-8",
+				"sha256": "ea6cecee948b673a9c49d9d94d160f2ad4a970a55e3a60994649ad8c9df1efbd",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/cuda-cudart-11-8_11.8.89-1_arm64.deb",
+				"version": "11.8.89-1"
+			}
+		},
+		"cuda-cudart-dev-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-cudart-dev-11-8",
+				"sha256": "c3ad62dbe3e80a7ba09fb9a69e5819abb274bb398fdcffbd7c7d8fa583dd700d",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-cudart-dev-11-8_11.8.89-1_amd64.deb",
+				"version": "11.8.89-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "cuda-cudart-dev-11-8",
+				"sha256": "05811c05c35753de542b748dedfda651d9f53cc060b0115441a360b8b2b0775c",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/cuda-cudart-dev-11-8_11.8.89-1_arm64.deb",
+				"version": "11.8.89-1"
+			}
+		},
+		"cuda-cuobjdump-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-cuobjdump-11-8",
+				"sha256": "e7c8fbfd2d0f515ddf9b98aac9ac43da9c126ee3d0ab9f14789e86f4cd654655",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-cuobjdump-11-8_11.8.86-1_amd64.deb",
+				"version": "11.8.86-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "cuda-cuobjdump-11-8",
+				"sha256": "697f4df8a89c798caa459c213fdead5ccea220cc46805ef3d7651add59a23289",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/cuda-cuobjdump-11-8_11.8.86-1_arm64.deb",
+				"version": "11.8.86-1"
+			}
+		},
+		"cuda-cupti-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-cupti-11-8",
+				"sha256": "7922e002784d4569902b2e0c3ac0396411e61e64a7bc4ac62c6bda678c4a590a",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-cupti-11-8_11.8.87-1_amd64.deb",
+				"version": "11.8.87-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "cuda-cupti-11-8",
+				"sha256": "96aff8de6d070e1fc0e54777cdf2263e2ca9a95860573b45759ff4d174c8a72f",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/cuda-cupti-11-8_11.8.87-1_arm64.deb",
+				"version": "11.8.87-1"
+			}
+		},
+		"cuda-cupti-dev-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-cupti-dev-11-8",
+				"sha256": "3af21112a3a26ddd72e0dcde81f6af8973a817bdcce8d99ed06e81d6a667f9c0",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-cupti-dev-11-8_11.8.87-1_amd64.deb",
+				"version": "11.8.87-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "cuda-cupti-dev-11-8",
+				"sha256": "6aa82f976f031333d48c48a701cff9476ab66509110c72db346be7cd3bca02b4",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/cuda-cupti-dev-11-8_11.8.87-1_arm64.deb",
+				"version": "11.8.87-1"
+			}
+		},
+		"cuda-cuxxfilt-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-cuxxfilt-11-8",
+				"sha256": "5b5130f758b92ad03e617cd353752997aa33538c80fb6aa6de106e12c8fad808",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-cuxxfilt-11-8_11.8.86-1_amd64.deb",
+				"version": "11.8.86-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "cuda-cuxxfilt-11-8",
+				"sha256": "dc5dc0cc400fa6b6e485995a12c7c4702e0c941f6dfe4c442f48c02f35a8c614",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/cuda-cuxxfilt-11-8_11.8.86-1_arm64.deb",
+				"version": "11.8.86-1"
+			}
+		},
+		"cuda-demo-suite-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-demo-suite-11-8",
+				"sha256": "405e43011c62683be488f64032ebf5051c36e167e23f71e2c5f3bb3dc80282ec",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-demo-suite-11-8_11.8.86-1_amd64.deb",
+				"version": "11.8.86-1"
+			}
+		},
+		"cuda-documentation-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-documentation-11-8",
+				"sha256": "be5d9b32d6cb81e27b670d37090442f12d81592b37502b971b03d21fea5eb262",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-documentation-11-8_11.8.86-1_amd64.deb",
+				"version": "11.8.86-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "cuda-documentation-11-8",
+				"sha256": "4e974f293403692cbb879cd91b214f8ba0c0bab6dec0966e6557b14738177ed6",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/cuda-documentation-11-8_11.8.86-1_arm64.deb",
+				"version": "11.8.86-1"
+			}
+		},
+		"cuda-driver-dev-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-driver-dev-11-8",
+				"sha256": "ee491628df1b08a633d7ca580d11d6aad48bd95af8e5ddb5c382d19ce1fc3596",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-driver-dev-11-8_11.8.89-1_amd64.deb",
+				"version": "11.8.89-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "cuda-driver-dev-11-8",
+				"sha256": "d4a5aa51f7d8e4d6466af8dcd853750f1c2f3b19756214a8e8acd362cc53a1fe",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/cuda-driver-dev-11-8_11.8.89-1_arm64.deb",
+				"version": "11.8.89-1"
+			}
+		},
+		"cuda-drivers": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-drivers",
+				"sha256": "f8e1085fe67b1aacc0c16e98877ba61041e2610914d785fd2687003965da43b7",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-drivers_560.35.03-1_amd64.deb",
+				"version": "560.35.03-1"
+			}
+		},
+		"cuda-drivers-560": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-drivers-560",
+				"sha256": "77f6854762489ef60b0015a5fb55a45c22b15a0cd27ea38eb1a63076824fbbe3",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-drivers-560_560.35.03-1_amd64.deb",
+				"version": "560.35.03-1"
+			}
+		},
+		"cuda-gdb-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-gdb-11-8",
+				"sha256": "692b474c088788a7d3ebb0c72c70c998133fc02158f07a6ad9be5ee32d59fa52",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-gdb-11-8_11.8.86-1_amd64.deb",
+				"version": "11.8.86-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "cuda-gdb-11-8",
+				"sha256": "57b13c4e62f07d48bb30268216dc151e9a3fadb803d0a46cb18b234fcd96ebce",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/cuda-gdb-11-8_11.8.86-1_arm64.deb",
+				"version": "11.8.86-1"
+			}
+		},
+		"cuda-libraries-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-libraries-11-8",
+				"sha256": "fd8338e0421a10db809abc48a2fa82d608f964cb38b61dca58253fc65d52704d",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-libraries-11-8_11.8.0-1_amd64.deb",
+				"version": "11.8.0-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "cuda-libraries-11-8",
+				"sha256": "7e27d15cf1c99418b41780fa682754fcb4a0dd9bd949bd9c491d12a19b83821a",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/cuda-libraries-11-8_11.8.0-1_arm64.deb",
+				"version": "11.8.0-1"
+			}
+		},
+		"cuda-libraries-dev-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-libraries-dev-11-8",
+				"sha256": "39b10c83c396fc8f0f773fbc1c6d789dded06b3465a834d7725fc12085255dbe",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-libraries-dev-11-8_11.8.0-1_amd64.deb",
+				"version": "11.8.0-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "cuda-libraries-dev-11-8",
+				"sha256": "7c240c9e618bedb8ac4de11bfb9f09683512e36b4c1a1b2548bcf66b00ff8d20",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/cuda-libraries-dev-11-8_11.8.0-1_arm64.deb",
+				"version": "11.8.0-1"
+			}
+		},
+		"cuda-memcheck-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-memcheck-11-8",
+				"sha256": "b6f84a9bb0bfb3bc06c9b283ccb35b864b288af545f7337cfad0882180590407",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-memcheck-11-8_11.8.86-1_amd64.deb",
+				"version": "11.8.86-1"
+			}
+		},
+		"cuda-nsight-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-nsight-11-8",
+				"sha256": "9d00d3a862cdfc0539f1a1c198b8e73faf493d4af0d5e03b04a630cb495e8b9b",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-nsight-11-8_11.8.86-1_amd64.deb",
+				"version": "11.8.86-1"
+			}
+		},
+		"cuda-nsight-compute-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-nsight-compute-11-8",
+				"sha256": "9e244edec1e6f5e7362241f1ef13d6dbf48789ce6c29fcc719a06e751eb6cc6c",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-nsight-compute-11-8_11.8.0-1_amd64.deb",
+				"version": "11.8.0-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "cuda-nsight-compute-11-8",
+				"sha256": "06652b8c1ded4d24e96701b425472147df5c543660feedb7677ea16071eb598c",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/cuda-nsight-compute-11-8_11.8.0-1_arm64.deb",
+				"version": "11.8.0-1"
+			}
+		},
+		"cuda-nsight-systems-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-nsight-systems-11-8",
+				"sha256": "4ad3971cb63b92adf886d27643e3f2bf544801338b703e204bcbcb18e07c4470",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-nsight-systems-11-8_11.8.0-1_amd64.deb",
+				"version": "11.8.0-1"
+			}
+		},
+		"cuda-nvcc-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-nvcc-11-8",
+				"sha256": "f72fcab60e94ae2ffbf7c24bedde5329fd7f3ca8fd07b6a5e92fd85759ecabdf",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-nvcc-11-8_11.8.89-1_amd64.deb",
+				"version": "11.8.89-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "cuda-nvcc-11-8",
+				"sha256": "55faf663fd702092402bfa26bcf159534473eb625912cee383b0361028d422b6",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/cuda-nvcc-11-8_11.8.89-1_arm64.deb",
+				"version": "11.8.89-1"
+			}
+		},
+		"cuda-nvdisasm-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-nvdisasm-11-8",
+				"sha256": "81989cf87650ae3126693309f831fbe4332d415a5dc63c25ebb149eed562af70",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-nvdisasm-11-8_11.8.86-1_amd64.deb",
+				"version": "11.8.86-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "cuda-nvdisasm-11-8",
+				"sha256": "34b31beffd5dc376d690e78ace62c80838572e89830c1b0037def8705d221f40",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/cuda-nvdisasm-11-8_11.8.86-1_arm64.deb",
+				"version": "11.8.86-1"
+			}
+		},
+		"cuda-nvml-dev-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-nvml-dev-11-8",
+				"sha256": "66bee76aec1d59aad169526d7ac6323304baf4195a23730822f4776996cf1408",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-nvml-dev-11-8_11.8.86-1_amd64.deb",
+				"version": "11.8.86-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "cuda-nvml-dev-11-8",
+				"sha256": "dc2386fbea53b4712a12d940bff2b3d8c59546492de3d4b163aea628c062c834",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/cuda-nvml-dev-11-8_11.8.86-1_arm64.deb",
+				"version": "11.8.86-1"
+			}
+		},
+		"cuda-nvprof-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-nvprof-11-8",
+				"sha256": "43281fd9c634ef1d9d447be00959b7600b932bb2bffb70bb57898b172a05bdbf",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-nvprof-11-8_11.8.87-1_amd64.deb",
+				"version": "11.8.87-1"
+			}
+		},
+		"cuda-nvprune-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-nvprune-11-8",
+				"sha256": "d7239b3d94f0daacecc049e33ebc92b7bf8611cf90fcb19e99b7279ee1f712f4",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-nvprune-11-8_11.8.86-1_amd64.deb",
+				"version": "11.8.86-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "cuda-nvprune-11-8",
+				"sha256": "296f676ba577b7cdae14070bb2459b19efb990f7ec13e96d24a488a9bd31a5b6",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/cuda-nvprune-11-8_11.8.86-1_arm64.deb",
+				"version": "11.8.86-1"
+			}
+		},
+		"cuda-nvrtc-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-nvrtc-11-8",
+				"sha256": "6f083fcd63b7f8ef7478bfb7b8aba938d8ca0b5684d610df1243302b12a54f06",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-nvrtc-11-8_11.8.89-1_amd64.deb",
+				"version": "11.8.89-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "cuda-nvrtc-11-8",
+				"sha256": "dfaf79fc04ea7acfd47ce9ba1f8cd69e29b82910d8dbdb407825d79f7de70aa2",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/cuda-nvrtc-11-8_11.8.89-1_arm64.deb",
+				"version": "11.8.89-1"
+			}
+		},
+		"cuda-nvrtc-dev-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-nvrtc-dev-11-8",
+				"sha256": "ebf060e5a84fa0c19f7ab444e6be904b5e38c976baef6b1cf6c7887a2543b171",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-nvrtc-dev-11-8_11.8.89-1_amd64.deb",
+				"version": "11.8.89-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "cuda-nvrtc-dev-11-8",
+				"sha256": "ca313cddd4af5b0e104accf8667575cb76e18eac87482c25b497b9ed75f86a59",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/cuda-nvrtc-dev-11-8_11.8.89-1_arm64.deb",
+				"version": "11.8.89-1"
+			}
+		},
+		"cuda-nvtx-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-nvtx-11-8",
+				"sha256": "a601f412a86563269fa1f9fcf164806e319af502f2e0584935c085ba7931c2c3",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-nvtx-11-8_11.8.86-1_amd64.deb",
+				"version": "11.8.86-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "cuda-nvtx-11-8",
+				"sha256": "118603e920808564d6597435fc1c4283826f2489043a7529979424b662f22156",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/cuda-nvtx-11-8_11.8.86-1_arm64.deb",
+				"version": "11.8.86-1"
+			}
+		},
+		"cuda-nvvp-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-nvvp-11-8",
+				"sha256": "0f3588d75c96c304c164c4c0d500c0aec99e2929046d425cbbc2f805216bf622",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-nvvp-11-8_11.8.87-1_amd64.deb",
+				"version": "11.8.87-1"
+			}
+		},
+		"cuda-profiler-api-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-profiler-api-11-8",
+				"sha256": "755ed6c2583cb70d96d57b84082621f87f9339573b973da91faeacba60ecfeeb",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-profiler-api-11-8_11.8.86-1_amd64.deb",
+				"version": "11.8.86-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "cuda-profiler-api-11-8",
+				"sha256": "a3af899c17b31d4b31c39502e0ed742c80d510071c91b4e5ba4a58f9a76cfa80",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/cuda-profiler-api-11-8_11.8.86-1_arm64.deb",
+				"version": "11.8.86-1"
+			}
+		},
+		"cuda-runtime-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-runtime-11-8",
+				"sha256": "52b94f33dd3397356152e19aef9afda91122b5d4235bccf9f96bcfbd932fe00a",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-runtime-11-8_11.8.0-1_amd64.deb",
+				"version": "11.8.0-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "cuda-runtime-11-8",
+				"sha256": "2e9f9aee438996aeed542c25f5435491451fe949e842fd4ae340c5892d38f9b2",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/cuda-runtime-11-8_11.8.0-1_arm64.deb",
+				"version": "11.8.0-1"
+			}
+		},
+		"cuda-sanitizer-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-sanitizer-11-8",
+				"sha256": "5b1a177f8986554a336927eaca0a2033e0bbd0af32f9f9aa6dd9f489bba64340",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-sanitizer-11-8_11.8.86-1_amd64.deb",
+				"version": "11.8.86-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "cuda-sanitizer-11-8",
+				"sha256": "c75d6c44a69068224e97c56636be5226fbae13a413711d7428ae7c64ba3e8da3",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/cuda-sanitizer-11-8_11.8.86-1_arm64.deb",
+				"version": "11.8.86-1"
+			}
+		},
+		"cuda-toolkit-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-toolkit-11-8",
+				"sha256": "cd1c6366547b771b8b5201409c8d5e692ea7d2d01023a991dfc52d1517240aad",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-toolkit-11-8_11.8.0-1_amd64.deb",
+				"version": "11.8.0-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "cuda-toolkit-11-8",
+				"sha256": "df4ca11bbd814f6796248563e750108e1a34f38580d221a2bf2175253f6f9388",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/cuda-toolkit-11-8_11.8.0-1_arm64.deb",
+				"version": "11.8.0-1"
+			}
+		},
+		"cuda-toolkit-11-8-config-common": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-toolkit-11-8-config-common",
+				"sha256": "8c0e856ee5ffbb325101ff4f55eeee0496cb862ee0f9f911e96ceb547f989865",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/cuda-toolkit-11-8-config-common_11.8.89-1_all.deb",
+				"version": "11.8.89-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "cuda-toolkit-11-8-config-common",
+				"sha256": "8c0e856ee5ffbb325101ff4f55eeee0496cb862ee0f9f911e96ceb547f989865",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/cuda-toolkit-11-8-config-common_11.8.89-1_all.deb",
+				"version": "11.8.89-1"
+			}
+		},
+		"cuda-tools-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-tools-11-8",
+				"sha256": "494973eb67a9cfe0548165a2673c89724ded067669d110eff48e637f3f0d1d98",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-tools-11-8_11.8.0-1_amd64.deb",
+				"version": "11.8.0-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "cuda-tools-11-8",
+				"sha256": "1c88f593db541d0ae881930f27bec09c625680090363c0cf1ff1e85d977d3804",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/cuda-tools-11-8_11.8.0-1_arm64.deb",
+				"version": "11.8.0-1"
+			}
+		},
+		"cuda-visual-tools-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "cuda-visual-tools-11-8",
+				"sha256": "e8ffc7d04e8fa5f954203a9ff8bcb3764a1f4c6158c764f0c80bba600f15db6e",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-visual-tools-11-8_11.8.0-1_amd64.deb",
+				"version": "11.8.0-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "cuda-visual-tools-11-8",
+				"sha256": "cd1136339a343fda78e43a5a487355ead23d3b91148703a8a8b8b38406305dfc",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/cuda-visual-tools-11-8_11.8.0-1_arm64.deb",
+				"version": "11.8.0-1"
+			}
+		},
+		"debconf": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "debconf",
+				"sha256": "7d639ffea1be8e8f5859ca94a0a09b1e4664d10af421c748b4163b08db515990",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/d/debconf/debconf_1.5.73_all.deb",
+				"version": "1.5.73"
+			}
+		},
+		"dpkg": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [
+					{
+						"name": "gcc-10-base",
+						"version": "10-20200411-0ubuntu1"
+					},
+					{
+						"name": "libacl1",
+						"version": "2.2.53-6"
+					},
+					{
+						"name": "libbz2-1.0",
+						"version": "1.0.8-2"
+					},
+					{
+						"name": "libc6",
+						"version": "2.31-0ubuntu9"
+					},
+					{
+						"name": "libcrypt1",
+						"version": "1:4.4.10-10ubuntu4"
+					},
+					{
+						"name": "libgcc-s1",
+						"version": "10-20200411-0ubuntu1"
+					},
+					{
+						"name": "liblzma5",
+						"version": "5.2.4-1"
+					},
+					{
+						"name": "libpcre2-8-0",
+						"version": "10.34-7"
+					},
+					{
+						"name": "libselinux1",
+						"version": "3.0-1build2"
+					},
+					{
+						"name": "libzstd1",
+						"version": "1.4.4+dfsg-3"
+					},
+					{
+						"name": "tar",
+						"version": "1.30+dfsg-7"
+					},
+					{
+						"name": "zlib1g",
+						"version": "1:1.2.11.dfsg-2ubuntu1"
+					}
+				],
+				"name": "dpkg",
+				"sha256": "76132be95c7199f902767fb329e0f33210ac5b5b1816746543bc75f795d9a37c",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/d/dpkg/dpkg_1.19.7ubuntu3_amd64.deb",
+				"version": "1.19.7ubuntu3"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [
+					{
+						"name": "gcc-10-base",
+						"version": "10-20200411-0ubuntu1"
+					},
+					{
+						"name": "libacl1",
+						"version": "2.2.53-6"
+					},
+					{
+						"name": "libbz2-1.0",
+						"version": "1.0.8-2"
+					},
+					{
+						"name": "libc6",
+						"version": "2.31-0ubuntu9"
+					},
+					{
+						"name": "libcrypt1",
+						"version": "1:4.4.10-10ubuntu4"
+					},
+					{
+						"name": "libgcc-s1",
+						"version": "10-20200411-0ubuntu1"
+					},
+					{
+						"name": "liblzma5",
+						"version": "5.2.4-1"
+					},
+					{
+						"name": "libpcre2-8-0",
+						"version": "10.34-7"
+					},
+					{
+						"name": "libselinux1",
+						"version": "3.0-1build2"
+					},
+					{
+						"name": "libzstd1",
+						"version": "1.4.4+dfsg-3"
+					},
+					{
+						"name": "tar",
+						"version": "1.30+dfsg-7"
+					},
+					{
+						"name": "zlib1g",
+						"version": "1:1.2.11.dfsg-2ubuntu1"
+					}
+				],
+				"name": "dpkg",
+				"sha256": "424ce21d27f651520b8f57073e50dc2874c8bb385e3017b51a53819d90253bc8",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/d/dpkg/dpkg_1.19.7ubuntu3_arm64.deb",
+				"version": "1.19.7ubuntu3"
+			}
+		},
+		"dpkg-dev": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "dpkg-dev",
+				"sha256": "c5163213c0096f4e59e8f34018820b06e60c9994c52561aafb0c821dafe5e35f",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/d/dpkg/dpkg-dev_1.19.7ubuntu3_all.deb",
+				"version": "1.19.7ubuntu3"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "dpkg-dev",
+				"sha256": "c5163213c0096f4e59e8f34018820b06e60c9994c52561aafb0c821dafe5e35f",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/d/dpkg/dpkg-dev_1.19.7ubuntu3_all.deb",
+				"version": "1.19.7ubuntu3"
+			}
+		},
+		"fontconfig-config": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "fontconfig-config",
+				"sha256": "80b090925c52aff3f4681b361c9823b041c42c57cca58b5baf2541bafc25fed9",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/f/fontconfig/fontconfig-config_2.13.1-2ubuntu3_all.deb",
+				"version": "2.13.1-2ubuntu3"
+			}
+		},
+		"g++": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "g++",
+				"sha256": "c613719f24d30e87ed196f27a324a6820032675759330772a1e6620c7662840e",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-defaults/g++_9.3.0-1ubuntu2_amd64.deb",
+				"version": "4:9.3.0-1ubuntu2"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "g++",
+				"sha256": "982061e7f9b672dcb0af67d4567777cda6867e59dc01138e5fd281b021834090",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-defaults/g++_9.3.0-1ubuntu2_arm64.deb",
+				"version": "4:9.3.0-1ubuntu2"
+			}
+		},
+		"g++-9": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "g++-9",
+				"sha256": "d3a28ee92e65e4f719fec86063bb83961b21fe52b737a967ba00936b32b72c12",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-9/g++-9_9.3.0-10ubuntu2_amd64.deb",
+				"version": "9.3.0-10ubuntu2"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "g++-9",
+				"sha256": "9b2a949f25150e29226566f87b88c2bac236d4d52ae648d2916a123920f16165",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-9/g++-9_9.3.0-10ubuntu2_arm64.deb",
+				"version": "9.3.0-10ubuntu2"
+			}
+		},
+		"gcc": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "gcc",
+				"sha256": "78ab6a8841c68300ba39992e8e33190371e133b3592c601ed3052d54e2ba59ea",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-defaults/gcc_9.3.0-1ubuntu2_amd64.deb",
+				"version": "4:9.3.0-1ubuntu2"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "gcc",
+				"sha256": "0e3b2004fa01730d173b7c0e041c610cb4a64a3816ffc2a555ad1814657ac959",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-defaults/gcc_9.3.0-1ubuntu2_arm64.deb",
+				"version": "4:9.3.0-1ubuntu2"
+			}
+		},
+		"gcc-10-base": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "gcc-10-base",
+				"sha256": "5268c7d97c4615f8522fec21cfa361b32f87a6e028411f45537de062d9c5da1f",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-10/gcc-10-base_10-20200411-0ubuntu1_amd64.deb",
+				"version": "10-20200411-0ubuntu1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "gcc-10-base",
+				"sha256": "e3584ff93d238bfe77cc7ad3a8a599bfb452c1a785b09fe04cdfbc384d12e5e0",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-10/gcc-10-base_10-20200411-0ubuntu1_arm64.deb",
+				"version": "10-20200411-0ubuntu1"
+			}
+		},
+		"gcc-9": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "gcc-9",
+				"sha256": "22f0282dc1549a4f5715b94e9c71ed0e96c400d522ec15453e1a8000d45ea8d7",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-9/gcc-9_9.3.0-10ubuntu2_amd64.deb",
+				"version": "9.3.0-10ubuntu2"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "gcc-9",
+				"sha256": "5105aea52ca7381641fda3ff820af0280e36ac17421f1241f36b4368a8473b7b",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-9/gcc-9_9.3.0-10ubuntu2_arm64.deb",
+				"version": "9.3.0-10ubuntu2"
+			}
+		},
+		"gcc-9-base": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "gcc-9-base",
+				"sha256": "3ba573c01939749cbe8a315fee33f49e7bcf8ff23b024e4230fe6d45f85b2a15",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-9/gcc-9-base_9.3.0-10ubuntu2_amd64.deb",
+				"version": "9.3.0-10ubuntu2"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "gcc-9-base",
+				"sha256": "fd3c523f5be9e389225c9cc7a9f79f35b3fa03055340a2dbc266b1cab386adae",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-9/gcc-9-base_9.3.0-10ubuntu2_arm64.deb",
+				"version": "9.3.0-10ubuntu2"
+			}
+		},
+		"gds-tools-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "gds-tools-11-8",
+				"sha256": "62839673a16e6e186e59cf66e324b0b4b4d6f5eb0b6578be9746c34bf7134502",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/gds-tools-11-8_1.4.0.31-1_amd64.deb",
+				"version": "1.4.0.31-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "gds-tools-11-8",
+				"sha256": "9b9f04f3c975ebd2f3a4c55563febbfd31241854f53e2a2d852d1b6476d811df",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/gds-tools-11-8_1.4.0.31-1_arm64.deb",
+				"version": "1.4.0.31-1"
+			}
+		},
+		"libacl1": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libacl1",
+				"sha256": "9fa9cc2f8eeccd8d29efcb998111b082432c65de75ca60ad9c333289bb3bb765",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/a/acl/libacl1_2.2.53-6_amd64.deb",
+				"version": "2.2.53-6"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libacl1",
+				"sha256": "218a0cc187a63c95ae3efb886e200f5dab1a9a3600e0e3781953c08acc61eff2",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/a/acl/libacl1_2.2.53-6_arm64.deb",
+				"version": "2.2.53-6"
+			}
+		},
+		"libapt-pkg6.0": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libapt-pkg6.0",
+				"sha256": "56b4103245ae80b4b3e4a14242bdd99c54ab476da156e95f77816f1016b6f9bd",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/a/apt/libapt-pkg6.0_2.0.2_amd64.deb",
+				"version": "2.0.2"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libapt-pkg6.0",
+				"sha256": "81eac496e14e5e0542b796f0e1333977c862f79d951dd0ebf74b45c8161dc005",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/a/apt/libapt-pkg6.0_2.0.2_arm64.deb",
+				"version": "2.0.2"
+			}
+		},
+		"libasan5": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libasan5",
+				"sha256": "7c80d740abb6de1e7ba527c446b22ed074c0b2107c5d5cf2927144b88c06aacb",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-9/libasan5_9.3.0-10ubuntu2_amd64.deb",
+				"version": "9.3.0-10ubuntu2"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libasan5",
+				"sha256": "f418420988acfe9afc22bbd2e3ce9b1fcec718af08aef92299badc64b19c6583",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-9/libasan5_9.3.0-10ubuntu2_arm64.deb",
+				"version": "9.3.0-10ubuntu2"
+			}
+		},
+		"libatomic1": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libatomic1",
+				"sha256": "38ad154ad6f4a76030bc3cb5522b23bf871cb9cc772fd9d7c0cad00815b9dbc7",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-10/libatomic1_10-20200411-0ubuntu1_amd64.deb",
+				"version": "10-20200411-0ubuntu1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libatomic1",
+				"sha256": "2e22ed242782f65f8045073a6ff6a3c9a128751ae45ed71b5a96ff54421263d3",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-10/libatomic1_10-20200411-0ubuntu1_arm64.deb",
+				"version": "10-20200411-0ubuntu1"
+			}
+		},
+		"libattr1": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libattr1",
+				"sha256": "d916bb73d9a160ccaa48d997c823af528cb6b4174c5234c744b40ae5aa85ce98",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/a/attr/libattr1_2.4.48-5_amd64.deb",
+				"version": "1:2.4.48-5"
+			}
+		},
+		"libaudit-common": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libaudit-common",
+				"sha256": "9fa4a291df5682f5fee12aacdddd9ed09445c352c80d8a1af36056866e4b4906",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/a/audit/libaudit-common_2.8.5-2ubuntu6_all.deb",
+				"version": "1:2.8.5-2ubuntu6"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libaudit-common",
+				"sha256": "9fa4a291df5682f5fee12aacdddd9ed09445c352c80d8a1af36056866e4b4906",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/a/audit/libaudit-common_2.8.5-2ubuntu6_all.deb",
+				"version": "1:2.8.5-2ubuntu6"
+			}
+		},
+		"libaudit1": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libaudit1",
+				"sha256": "fb539f4d848d00e9472444285831e0204b9e92e7ee65dbb72b56e144a6dbedf8",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/a/audit/libaudit1_2.8.5-2ubuntu6_amd64.deb",
+				"version": "1:2.8.5-2ubuntu6"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libaudit1",
+				"sha256": "c9bf5af721e15f208e27bd04e5b01826f136a7f0dcba5fe4eb06b1ea09abddff",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/a/audit/libaudit1_2.8.5-2ubuntu6_arm64.deb",
+				"version": "1:2.8.5-2ubuntu6"
+			}
+		},
+		"libbinutils": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libbinutils",
+				"sha256": "7a7da2b3a4c7586fdf11b21ee3144ee1bd3ccb17250644810f1332c9214b29d7",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/b/binutils/libbinutils_2.34-6ubuntu1_amd64.deb",
+				"version": "2.34-6ubuntu1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libbinutils",
+				"sha256": "423c33ccf87d155199d585b28818133bf9a1c9ab2243cc8bfa3dbc660727a600",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/b/binutils/libbinutils_2.34-6ubuntu1_arm64.deb",
+				"version": "2.34-6ubuntu1"
+			}
+		},
+		"libblkid1": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libblkid1",
+				"sha256": "0fa097b34f492d0dd8fc8a7d916321534f8710a7319d055d6b24e9b8ef0e0f32",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/u/util-linux/libblkid1_2.34-0.1ubuntu9_amd64.deb",
+				"version": "2.34-0.1ubuntu9"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libblkid1",
+				"sha256": "14557fdbddbb9e36f4287cb42799c0e1d7cfb391872d14c8691d7450bc3dac4b",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/u/util-linux/libblkid1_2.34-0.1ubuntu9_arm64.deb",
+				"version": "2.34-0.1ubuntu9"
+			}
+		},
+		"libbsd0": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libbsd0",
+				"sha256": "4f668025fe923a372eb7fc368d6769fcfff6809233d48fd20fc072917cd82e60",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libb/libbsd/libbsd0_0.10.0-1_amd64.deb",
+				"version": "0.10.0-1"
+			}
+		},
+		"libbz2-1.0": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libbz2-1.0",
+				"sha256": "f3632ec38402ca0f9c61a6854469f1a0eba9389d3f73827b466033c3d5bbec69",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/b/bzip2/libbz2-1.0_1.0.8-2_amd64.deb",
+				"version": "1.0.8-2"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libbz2-1.0",
+				"sha256": "6223fe0025beac129e9168be5a5ffc3655c23defd12de86b2f5dc52c3fd8d93b",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/b/bzip2/libbz2-1.0_1.0.8-2_arm64.deb",
+				"version": "1.0.8-2"
+			}
+		},
+		"libc-dev-bin": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libc-dev-bin",
+				"sha256": "51bf3e807747de738435e9aa4213f43ec62769d7178614e4db9de387446c714e",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/glibc/libc-dev-bin_2.31-0ubuntu9_amd64.deb",
+				"version": "2.31-0ubuntu9"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libc-dev-bin",
+				"sha256": "c169129b90b6b58e87a2fb006902cbde385bc971692db6e98edcd841f2bcc6e2",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/glibc/libc-dev-bin_2.31-0ubuntu9_arm64.deb",
+				"version": "2.31-0ubuntu9"
+			}
+		},
+		"libc6": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libc6",
+				"sha256": "847a68e5f1ec2cd4e6fc191c5eaf0547445dd5c473c7617c068ba4441f63b292",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/glibc/libc6_2.31-0ubuntu9_amd64.deb",
+				"version": "2.31-0ubuntu9"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libc6",
+				"sha256": "783130400addeedde4c32e020d8e6bb612d9c8296eea66c74f2f86cbc938c033",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/glibc/libc6_2.31-0ubuntu9_arm64.deb",
+				"version": "2.31-0ubuntu9"
+			}
+		},
+		"libc6-dev": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libc6-dev",
+				"sha256": "adb78f38fb00c76af4384be7a4c5f41da242e05bea6b0483e03b7e0c86738477",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/glibc/libc6-dev_2.31-0ubuntu9_amd64.deb",
+				"version": "2.31-0ubuntu9"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libc6-dev",
+				"sha256": "7396b98f74412c7160c89717c51e50392c7d66c8d66fd7e6795cee2545feddce",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/glibc/libc6-dev_2.31-0ubuntu9_arm64.deb",
+				"version": "2.31-0ubuntu9"
+			}
+		},
+		"libcairo2": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libcairo2",
+				"sha256": "f01ae3e61485742b5b72e6195d45204767e64f934bbe96f6c639d26b5114513d",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/c/cairo/libcairo2_1.16.0-4ubuntu1_amd64.deb",
+				"version": "1.16.0-4ubuntu1"
+			}
+		},
+		"libcap-ng0": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libcap-ng0",
+				"sha256": "e8606a60a92aa8054d1620781889a8b709c3db8714e3b03b3987f81c7e168d06",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libc/libcap-ng/libcap-ng0_0.7.9-2.1build1_amd64.deb",
+				"version": "0.7.9-2.1build1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libcap-ng0",
+				"sha256": "5a362a556902427435b8e2c28d319263fa9a9c14848a7c7996da843d1ce45ec6",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libc/libcap-ng/libcap-ng0_0.7.9-2.1build1_arm64.deb",
+				"version": "0.7.9-2.1build1"
+			}
+		},
+		"libcc1-0": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libcc1-0",
+				"sha256": "255ebc78828b1531f83038805dd918a8a60c017f939b07dd614b9fb7f7400df3",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-10/libcc1-0_10-20200411-0ubuntu1_amd64.deb",
+				"version": "10-20200411-0ubuntu1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libcc1-0",
+				"sha256": "203835559db067a1cf4d2fb677d7fd888c44db6947e32d6a21d18a42b911b6b1",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-10/libcc1-0_10-20200411-0ubuntu1_arm64.deb",
+				"version": "10-20200411-0ubuntu1"
+			}
+		},
+		"libcrypt-dev": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libcrypt-dev",
+				"sha256": "f0a41d8e8cf379dbbdfc43169f34851ed452b3581e72c6654f2e290caf4e1b20",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libx/libxcrypt/libcrypt-dev_4.4.10-10ubuntu4_amd64.deb",
+				"version": "1:4.4.10-10ubuntu4"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libcrypt-dev",
+				"sha256": "3cbd65247c73ec78e15e9364d3f15643591fe25849382251c77a49204f083e68",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libx/libxcrypt/libcrypt-dev_4.4.10-10ubuntu4_arm64.deb",
+				"version": "1:4.4.10-10ubuntu4"
+			}
+		},
+		"libcrypt1": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libcrypt1",
+				"sha256": "231b4dbbe5865775f118cfa61394f1e16fa7102b6953a327e672499a20876d73",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libx/libxcrypt/libcrypt1_4.4.10-10ubuntu4_amd64.deb",
+				"version": "1:4.4.10-10ubuntu4"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libcrypt1",
+				"sha256": "89907b6c1b613c430a53ef10909934b9ce5854a396cd173360495f6f8e5e7ea4",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libx/libxcrypt/libcrypt1_4.4.10-10ubuntu4_arm64.deb",
+				"version": "1:4.4.10-10ubuntu4"
+			}
+		},
+		"libctf-nobfd0": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libctf-nobfd0",
+				"sha256": "171e3fb633348b5f96d15714907549ce120c34bcde0141a641b6761cfc7ae17b",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/b/binutils/libctf-nobfd0_2.34-6ubuntu1_amd64.deb",
+				"version": "2.34-6ubuntu1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libctf-nobfd0",
+				"sha256": "ae9545c4cbf921bbccdf3c958b92890a2263c6c759d538cbb1f312f861207b97",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/b/binutils/libctf-nobfd0_2.34-6ubuntu1_arm64.deb",
+				"version": "2.34-6ubuntu1"
+			}
+		},
+		"libctf0": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libctf0",
+				"sha256": "3bfee182c162f9e6128a419f214d9f507f86c6841b84d27dd5c1dfd0b2b09098",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/b/binutils/libctf0_2.34-6ubuntu1_amd64.deb",
+				"version": "2.34-6ubuntu1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libctf0",
+				"sha256": "f407c88ca15cea583b2c87dd2be19c51353f2dd04f0361888c797ffe9635fe42",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/b/binutils/libctf0_2.34-6ubuntu1_arm64.deb",
+				"version": "2.34-6ubuntu1"
+			}
+		},
+		"libcublas-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libcublas-11-8",
+				"sha256": "fc7c7c6b5faba8410e884ba27759c0f9cacb69432e4e9254c05fc55f4ccfa4d9",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/libcublas-11-8_11.11.3.6-1_amd64.deb",
+				"version": "11.11.3.6-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libcublas-11-8",
+				"sha256": "2a433d986df2e276bccc544bcefa56b8ef1a46f5b4c73ce5aacc6cf6c261067f",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/libcublas-11-8_11.11.3.6-1_arm64.deb",
+				"version": "11.11.3.6-1"
+			}
+		},
+		"libcublas-dev-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libcublas-dev-11-8",
+				"sha256": "84616862f8d45a9042bd6ea584440e2b6a6f5615c267ad2d25ab63f2a51d2428",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/libcublas-dev-11-8_11.11.3.6-1_amd64.deb",
+				"version": "11.11.3.6-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libcublas-dev-11-8",
+				"sha256": "42f110aa2f42bb06270542be236170a90d7693805cdde64ca87320e7d2efb4d0",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/libcublas-dev-11-8_11.11.3.6-1_arm64.deb",
+				"version": "11.11.3.6-1"
+			}
+		},
+		"libcudla-11-8": {
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libcudla-11-8",
+				"sha256": "99b23f571c827b2e2688ea52460d0f76c707e4da537e4b17621726128861b9f0",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/libcudla-11-8_11.8.86-1_arm64.deb",
+				"version": "11.8.86-1"
+			}
+		},
+		"libcudla-dev-11-8": {
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libcudla-dev-11-8",
+				"sha256": "eb5fce86294c6df8c4e363eb758b53fba80b5a77a3089b576ba5bfa207bd7cb6",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/libcudla-dev-11-8_11.8.86-1_arm64.deb",
+				"version": "11.8.86-1"
+			}
+		},
+		"libcufft-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libcufft-11-8",
+				"sha256": "9f90b56c83b922e4c7a972b813bd29387be05c56c6c1dbce4c2c6ef459323d28",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/libcufft-11-8_10.9.0.58-1_amd64.deb",
+				"version": "10.9.0.58-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libcufft-11-8",
+				"sha256": "85ab0db678898c57d673dcb31a0ddb4c80fe0b7cbfa573c2db32d9095bdce292",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/libcufft-11-8_10.9.0.58-1_arm64.deb",
+				"version": "10.9.0.58-1"
+			}
+		},
+		"libcufft-dev-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libcufft-dev-11-8",
+				"sha256": "ef6a4db5e7ca7889cd1c9c68a7808d163e487cbdfe91ed10def587242909dcd3",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/libcufft-dev-11-8_10.9.0.58-1_amd64.deb",
+				"version": "10.9.0.58-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libcufft-dev-11-8",
+				"sha256": "cea090f452ffbd85828beb2807a4498b60f87b3ef81b5667f720ecd97329f254",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/libcufft-dev-11-8_10.9.0.58-1_arm64.deb",
+				"version": "10.9.0.58-1"
+			}
+		},
+		"libcufile-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libcufile-11-8",
+				"sha256": "837fed2eb6f68d49149549ccb3cd3ab7347ef601a9525c0f9c45f2bd3cb566f3",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/libcufile-11-8_1.4.0.31-1_amd64.deb",
+				"version": "1.4.0.31-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libcufile-11-8",
+				"sha256": "f55f9700b64cbae0fc5ea294a7ed64f8d4dacfb314305565f2b9440f35452ce9",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/libcufile-11-8_1.4.0.31-1_arm64.deb",
+				"version": "1.4.0.31-1"
+			}
+		},
+		"libcufile-dev-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libcufile-dev-11-8",
+				"sha256": "f485f381e84dcdb12e8b3067085a0eacb7ce4f46f388638e32cf8a23d137afbe",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/libcufile-dev-11-8_1.4.0.31-1_amd64.deb",
+				"version": "1.4.0.31-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libcufile-dev-11-8",
+				"sha256": "56769d1d16b8959e42eabc55e32ea9c1ee047a6b16fe4ce1305644d9e2fd8a45",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/libcufile-dev-11-8_1.4.0.31-1_arm64.deb",
+				"version": "1.4.0.31-1"
+			}
+		},
+		"libcurand-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libcurand-11-8",
+				"sha256": "1af8f0163cf37874fd7f4c4ed2e0f77e6676badda2572773c559c0a42e371dde",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/libcurand-11-8_10.3.0.86-1_amd64.deb",
+				"version": "10.3.0.86-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libcurand-11-8",
+				"sha256": "97c8eaede35764ad739418e93e09c537252f8e0b5e74d0dd1dbf89ba6f3c815a",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/libcurand-11-8_10.3.0.86-1_arm64.deb",
+				"version": "10.3.0.86-1"
+			}
+		},
+		"libcurand-dev-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libcurand-dev-11-8",
+				"sha256": "e94801f76bb6af2c09f9d4166fb33478d08ae205355f3f2d7ae01baff9320ff9",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/libcurand-dev-11-8_10.3.0.86-1_amd64.deb",
+				"version": "10.3.0.86-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libcurand-dev-11-8",
+				"sha256": "15faf8bc98e26f9a3f313f4bfccf3a615abe633380e60c87460fb3b77002f53d",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/libcurand-dev-11-8_10.3.0.86-1_arm64.deb",
+				"version": "10.3.0.86-1"
+			}
+		},
+		"libcusolver-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libcusolver-11-8",
+				"sha256": "935471d4a2b133697c6221285205f8ae8edd4a8a6eb3b60f9587d24b0244c1d0",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/libcusolver-11-8_11.4.1.48-1_amd64.deb",
+				"version": "11.4.1.48-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libcusolver-11-8",
+				"sha256": "9ecf297e81c6907e86f333951102f615782a5494c1b89ea781a14904a80a71b1",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/libcusolver-11-8_11.4.1.48-1_arm64.deb",
+				"version": "11.4.1.48-1"
+			}
+		},
+		"libcusolver-dev-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libcusolver-dev-11-8",
+				"sha256": "96933fb6d9bde2024ff1c2aa66d80858dbc828da918a975ee8afa827001f2a80",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/libcusolver-dev-11-8_11.4.1.48-1_amd64.deb",
+				"version": "11.4.1.48-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libcusolver-dev-11-8",
+				"sha256": "2a4d010849c1af3487e06a04bb2a64dc70d1e6107acbc5bc20020227d627e7aa",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/libcusolver-dev-11-8_11.4.1.48-1_arm64.deb",
+				"version": "11.4.1.48-1"
+			}
+		},
+		"libcusparse-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libcusparse-11-8",
+				"sha256": "6252b196b6ce67c63579e0f0fcfcf6e8059ed13c797c3e2d739297807a9c6bf1",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/libcusparse-11-8_11.7.5.86-1_amd64.deb",
+				"version": "11.7.5.86-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libcusparse-11-8",
+				"sha256": "a65c1e4a3c3826c1b402b47e67e040d60a2351bebd2bf347a51694246bffe975",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/libcusparse-11-8_11.7.5.86-1_arm64.deb",
+				"version": "11.7.5.86-1"
+			}
+		},
+		"libcusparse-dev-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libcusparse-dev-11-8",
+				"sha256": "3a61b6d3094cda2842cea5af6317531f39ec588b5d11c6a5d880def6f5f2e08d",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/libcusparse-dev-11-8_11.7.5.86-1_amd64.deb",
+				"version": "11.7.5.86-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libcusparse-dev-11-8",
+				"sha256": "643d6696186be3d2de6c56da2fde998096d946d03cff9f28725a0aff64df087d",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/libcusparse-dev-11-8_11.7.5.86-1_arm64.deb",
+				"version": "11.7.5.86-1"
+			}
+		},
+		"libdb5.3": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libdb5.3",
+				"sha256": "330775026b5e31340387fb58e12e40e241ca34cbbb6c0c28331bd83cb47c3656",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/d/db5.3/libdb5.3_5.3.28+dfsg1-0.6ubuntu2_amd64.deb",
+				"version": "5.3.28+dfsg1-0.6ubuntu2"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libdb5.3",
+				"sha256": "c7559b42a507da72f2dcca86d70acca1349407416ea4c485b6fb36335879642a",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/d/db5.3/libdb5.3_5.3.28+dfsg1-0.6ubuntu2_arm64.deb",
+				"version": "5.3.28+dfsg1-0.6ubuntu2"
+			}
+		},
+		"libdpkg-perl": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libdpkg-perl",
+				"sha256": "b7f34bb3574e2fae9054649d87a69e8d28a0f2c6a616d07a4f294d5462bb161c",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/d/dpkg/libdpkg-perl_1.19.7ubuntu3_all.deb",
+				"version": "1.19.7ubuntu3"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libdpkg-perl",
+				"sha256": "b7f34bb3574e2fae9054649d87a69e8d28a0f2c6a616d07a4f294d5462bb161c",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/d/dpkg/libdpkg-perl_1.19.7ubuntu3_all.deb",
+				"version": "1.19.7ubuntu3"
+			}
+		},
+		"libexpat1": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libexpat1",
+				"sha256": "342720dc6e3c55dee5b863a86dc2090d8c716f5c5116ab55066a5eb0433bd6c1",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/e/expat/libexpat1_2.2.9-1build1_amd64.deb",
+				"version": "2.2.9-1build1"
+			}
+		},
+		"libffi7": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libffi7",
+				"sha256": "4584aa8fef1bf5086168ce2f7078cd2ebd78fdc4cc0d86d958d795d4e0b0f50d",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libf/libffi/libffi7_3.3-4_amd64.deb",
+				"version": "3.3-4"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libffi7",
+				"sha256": "a3e7abc48b5b4614fd5f6d1d95019d52be092e40e9b8a05f670905c6abf6eac4",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libf/libffi/libffi7_3.3-4_arm64.deb",
+				"version": "3.3-4"
+			}
+		},
+		"libfontconfig1": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libfontconfig1",
+				"sha256": "7ca5523936a9b8e42f60c0f01c232145809387e5680b05c7bce0bea31844a522",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/f/fontconfig/libfontconfig1_2.13.1-2ubuntu3_amd64.deb",
+				"version": "2.13.1-2ubuntu3"
+			}
+		},
+		"libfreetype6": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libfreetype6",
+				"sha256": "c86eb1cd30370b4111d906ae62ec1a3aaff54547f8a1d0242e604da06544d628",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/f/freetype/libfreetype6_2.10.1-2_amd64.deb",
+				"version": "2.10.1-2"
+			}
+		},
+		"libgcc-9-dev": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libgcc-9-dev",
+				"sha256": "d1db4de59b4184e502407a2abfde23ed1a966e590f17b4d206bdb4fbb7df0040",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-9/libgcc-9-dev_9.3.0-10ubuntu2_amd64.deb",
+				"version": "9.3.0-10ubuntu2"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libgcc-9-dev",
+				"sha256": "2b9484358d26eb2a83c92acfe445965918f049e540c285e16b286f5be79dd435",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-9/libgcc-9-dev_9.3.0-10ubuntu2_arm64.deb",
+				"version": "9.3.0-10ubuntu2"
+			}
+		},
+		"libgcc-s1": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libgcc-s1",
+				"sha256": "fb69f47490d22988ad8a1b3c19d5292e1ccdbd30661eedcd680f9a78b9b55d60",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-10/libgcc-s1_10-20200411-0ubuntu1_amd64.deb",
+				"version": "10-20200411-0ubuntu1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libgcc-s1",
+				"sha256": "ac157ece7e0d41abf7c05309d8c85742f5f895a09c573add08152198390840ee",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-10/libgcc-s1_10-20200411-0ubuntu1_arm64.deb",
+				"version": "10-20200411-0ubuntu1"
+			}
+		},
+		"libgcrypt20": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libgcrypt20",
+				"sha256": "72d2eb218de9e34a05f487b36be3c4618848cf60dac9243726f1e0243494bac2",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libg/libgcrypt20/libgcrypt20_1.8.5-5ubuntu1_amd64.deb",
+				"version": "1.8.5-5ubuntu1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libgcrypt20",
+				"sha256": "60693d62488da3e5743d2fdd460c34555fbc487c948d5d08d96b1892ae941bd2",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libg/libgcrypt20/libgcrypt20_1.8.5-5ubuntu1_arm64.deb",
+				"version": "1.8.5-5ubuntu1"
+			}
+		},
+		"libgdbm-compat4": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libgdbm-compat4",
+				"sha256": "4f93394bda7be86b94fb32ac1bdf1a0b7124b8150962b55512371c3a816a382d",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gdbm/libgdbm-compat4_1.18.1-5_amd64.deb",
+				"version": "1.18.1-5"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libgdbm-compat4",
+				"sha256": "41bf13d7e9af05fe8ba430717539ad211209be387f1d4c7bfa8e2d197295b2b3",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gdbm/libgdbm-compat4_1.18.1-5_arm64.deb",
+				"version": "1.18.1-5"
+			}
+		},
+		"libgdbm6": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libgdbm6",
+				"sha256": "8ac1108585490fc2321df8d27cc565054003d86fab0ab8b8e2a4a2d050a53098",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gdbm/libgdbm6_1.18.1-5_amd64.deb",
+				"version": "1.18.1-5"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libgdbm6",
+				"sha256": "3fe57483eae460224242495d7438beb12b32483a6481c8e4a1d36704f90e64aa",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gdbm/libgdbm6_1.18.1-5_arm64.deb",
+				"version": "1.18.1-5"
+			}
+		},
+		"libglib2.0-0": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libglib2.0-0",
+				"sha256": "fed9e05af09107ff763d673cbeee2671b03c7b138d9f23cfa634ddb3636f7faa",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/glib2.0/libglib2.0-0_2.64.2-1~fakesync1_amd64.deb",
+				"version": "2.64.2-1~fakesync1"
+			}
+		},
+		"libgmp10": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libgmp10",
+				"sha256": "23096fc84d7f5baebf73e2e401349ac03fe171b6953f1ec23b6359f5447d1aa9",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gmp/libgmp10_6.2.0+dfsg-4_amd64.deb",
+				"version": "2:6.2.0+dfsg-4"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libgmp10",
+				"sha256": "64d9fa3596b8b3f23626ffd0bd451b80fc27cfd3ea3cc64289640d9794946074",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gmp/libgmp10_6.2.0+dfsg-4_arm64.deb",
+				"version": "2:6.2.0+dfsg-4"
+			}
+		},
+		"libgnutls30": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libgnutls30",
+				"sha256": "3063ed45f71bced56145119c205288a13820022a7e10b20e86df193d3b5892d1",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gnutls28/libgnutls30_3.6.13-2ubuntu1_amd64.deb",
+				"version": "3.6.13-2ubuntu1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libgnutls30",
+				"sha256": "e13175bb1dc1620b6fdda31eb16b9aa19923af0447421212daf1475dfc35ae62",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gnutls28/libgnutls30_3.6.13-2ubuntu1_arm64.deb",
+				"version": "3.6.13-2ubuntu1"
+			}
+		},
+		"libgomp1": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libgomp1",
+				"sha256": "16486e704cf644945f3900f265f6e1e5c643f5957ba79a3af5827dcbb8f35367",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-10/libgomp1_10-20200411-0ubuntu1_amd64.deb",
+				"version": "10-20200411-0ubuntu1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libgomp1",
+				"sha256": "1a13c3f75acb395407fdd5f99032669395f7eb4fcaf0d330443cb1c295361bb4",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-10/libgomp1_10-20200411-0ubuntu1_arm64.deb",
+				"version": "10-20200411-0ubuntu1"
+			}
+		},
+		"libgpg-error0": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libgpg-error0",
+				"sha256": "4744163850851f60080a8b0fdf3dd3258d93114bd83f8024414737a2826da7fe",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libg/libgpg-error/libgpg-error0_1.37-1_amd64.deb",
+				"version": "1.37-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libgpg-error0",
+				"sha256": "3b1364e9125ec484cfc3dd4441b836e111cf99e86274ca5e24a82d6c8343f15f",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libg/libgpg-error/libgpg-error0_1.37-1_arm64.deb",
+				"version": "1.37-1"
+			}
+		},
+		"libhogweed5": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libhogweed5",
+				"sha256": "f6d44532a0d12bf5c7046295755c4a5897f8e06c814d36acb545c50f9652f852",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/n/nettle/libhogweed5_3.5.1+really3.5.1-2_amd64.deb",
+				"version": "3.5.1+really3.5.1-2"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libhogweed5",
+				"sha256": "e6c25e4e0dc4a82b1f1c498b56677a5cbd265fee1eeda3a205787c37e85ab1ce",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/n/nettle/libhogweed5_3.5.1+really3.5.1-2_arm64.deb",
+				"version": "3.5.1+really3.5.1-2"
+			}
+		},
+		"libidn2-0": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libidn2-0",
+				"sha256": "698abe11d444c7e87c656c2083373d1e0fae04b3a64be0371adb2bb180092537",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libi/libidn2/libidn2-0_2.2.0-2_amd64.deb",
+				"version": "2.2.0-2"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libidn2-0",
+				"sha256": "87b95a889659edc2cae07679a930880b625449e28608cb22a8b6b6e6149c22cd",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libi/libidn2/libidn2-0_2.2.0-2_arm64.deb",
+				"version": "2.2.0-2"
+			}
+		},
+		"libisl22": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libisl22",
+				"sha256": "67cadab06a50a29cde11c1c1d02847afbae6f0465686481c9106577777b88a44",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/i/isl/libisl22_0.22.1-1_amd64.deb",
+				"version": "0.22.1-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libisl22",
+				"sha256": "60b341bc2988b17e6988592953730d0bb258a406da307fe9185253a3f48b851b",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/i/isl/libisl22_0.22.1-1_arm64.deb",
+				"version": "0.22.1-1"
+			}
+		},
+		"libitm1": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libitm1",
+				"sha256": "938c76eed182ca7acf89c0ea58227c222c49fde8b07f089c805e4e3b24e3ff90",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-10/libitm1_10-20200411-0ubuntu1_amd64.deb",
+				"version": "10-20200411-0ubuntu1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libitm1",
+				"sha256": "b28dd85519f6a5462ced2928e5c4ef33fba4adbfdd5bbe86df62a98e4e3688f3",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-10/libitm1_10-20200411-0ubuntu1_arm64.deb",
+				"version": "10-20200411-0ubuntu1"
+			}
+		},
+		"liblsan0": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "liblsan0",
+				"sha256": "e96c77a7bfe8f92f26c498032c3da951f34d92dc6324d5d5f0fcc36535dfa58c",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-10/liblsan0_10-20200411-0ubuntu1_amd64.deb",
+				"version": "10-20200411-0ubuntu1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "liblsan0",
+				"sha256": "b4b52c81fb714d0dc72c1d959bf56c985003ddf1bfc3f1480601f2b18942c5af",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-10/liblsan0_10-20200411-0ubuntu1_arm64.deb",
+				"version": "10-20200411-0ubuntu1"
+			}
+		},
+		"liblz4-1": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "liblz4-1",
+				"sha256": "8e30993d269be2b82b4fef4d1c097cb27ab09f67352685bbb652cb176214144c",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/l/lz4/liblz4-1_1.9.2-2_amd64.deb",
+				"version": "1.9.2-2"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "liblz4-1",
+				"sha256": "302ebe6fd36a20e57f84eb2085c0e0ab5df2edc989871a037123d81e6fb90c4a",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/l/lz4/liblz4-1_1.9.2-2_arm64.deb",
+				"version": "1.9.2-2"
+			}
+		},
+		"liblzma5": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "liblzma5",
+				"sha256": "01020b5a0515dbc9a7c00b464a65450f788b0258c3fbb733ecad0438f5124800",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/x/xz-utils/liblzma5_5.2.4-1_amd64.deb",
+				"version": "5.2.4-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "liblzma5",
+				"sha256": "afba8c1c57b7aba8e8d8839e7af424044b7946862e59d4193c6af7d32637cd5c",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/x/xz-utils/liblzma5_5.2.4-1_arm64.deb",
+				"version": "5.2.4-1"
+			}
+		},
+		"libmount1": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libmount1",
+				"sha256": "6c5a6757f827936745f4a47b0f6fbc43675489bff0dc45b0d8181ee2f2dc103a",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/u/util-linux/libmount1_2.34-0.1ubuntu9_amd64.deb",
+				"version": "2.34-0.1ubuntu9"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libmount1",
+				"sha256": "317bc180a931d95f614206ef9742df6ec237ac9fd8f425d098a8d62eb075e0f2",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/u/util-linux/libmount1_2.34-0.1ubuntu9_arm64.deb",
+				"version": "2.34-0.1ubuntu9"
+			}
+		},
+		"libmpc3": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libmpc3",
+				"sha256": "3c3c45aa50ce1ff753107766c6fea35a82c52ad11afcab0abfd0cd0c76730f87",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/m/mpclib3/libmpc3_1.1.0-1_amd64.deb",
+				"version": "1.1.0-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libmpc3",
+				"sha256": "94dedb869bdc811aec4e8d5d794cd838e7d41765b5ffbdc5628eb57b6885bcb5",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/m/mpclib3/libmpc3_1.1.0-1_arm64.deb",
+				"version": "1.1.0-1"
+			}
+		},
+		"libmpfr6": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libmpfr6",
+				"sha256": "d098b67c3e1492a1c21a6a0d9befc88344e59a0d0eb6109384f85d8524a608cb",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/m/mpfr4/libmpfr6_4.0.2-1_amd64.deb",
+				"version": "4.0.2-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libmpfr6",
+				"sha256": "fa167728c18447512a3d680bf75c39f21d6a8336d7be5b9a60159cb86d95553c",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/m/mpfr4/libmpfr6_4.0.2-1_arm64.deb",
+				"version": "4.0.2-1"
+			}
+		},
+		"libnettle7": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libnettle7",
+				"sha256": "6bdca19cb53cda650dee1c7789b298b4a7a0089693da754a8511604c80f3ca24",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/n/nettle/libnettle7_3.5.1+really3.5.1-2_amd64.deb",
+				"version": "3.5.1+really3.5.1-2"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libnettle7",
+				"sha256": "9926a9b7920fa02a9828f6eb5d0e4e26f2c69684befe53582274473024276605",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/n/nettle/libnettle7_3.5.1+really3.5.1-2_arm64.deb",
+				"version": "3.5.1+really3.5.1-2"
+			}
+		},
+		"libnpp-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libnpp-11-8",
+				"sha256": "6f75e8540f50dd3461ccc2efa6352b80c81a30de7e43ffa703cb8f044d8bfcd3",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/libnpp-11-8_11.8.0.86-1_amd64.deb",
+				"version": "11.8.0.86-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libnpp-11-8",
+				"sha256": "fd1fb2818b87d7e4c4fb8925ac2208c22362ba8b48f26b1779f2cddfd4f5abfa",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/libnpp-11-8_11.8.0.86-1_arm64.deb",
+				"version": "11.8.0.86-1"
+			}
+		},
+		"libnpp-dev-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libnpp-dev-11-8",
+				"sha256": "1e7d6cde014143f9eeb6d5e6383f6cca301e3746af5409e2d072bf35ccff8ff4",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/libnpp-dev-11-8_11.8.0.86-1_amd64.deb",
+				"version": "11.8.0.86-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libnpp-dev-11-8",
+				"sha256": "2f3132e7fe90265244a9b4441cabbcb47ed6bdc70ccce10eb07a01de1322acae",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/libnpp-dev-11-8_11.8.0.86-1_arm64.deb",
+				"version": "11.8.0.86-1"
+			}
+		},
+		"libnuma1": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libnuma1",
+				"sha256": "0b1edf08cf9befecd21fe94e298ac25e476f87fd876ddd4adf42ef713449e637",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/n/numactl/libnuma1_2.0.12-1_amd64.deb",
+				"version": "2.0.12-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libnuma1",
+				"sha256": "4345b55e649d1c45f0e825bd1d85cd1a7480aa15336de89a1e5f9aa6e5dbea17",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/n/numactl/libnuma1_2.0.12-1_arm64.deb",
+				"version": "2.0.12-1"
+			}
+		},
+		"libnvjpeg-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libnvjpeg-11-8",
+				"sha256": "c4a686d02f1f04adedcd662bd8eec999a5e91ea38263030a49946d82044cce16",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/libnvjpeg-11-8_11.9.0.86-1_amd64.deb",
+				"version": "11.9.0.86-1"
+			}
+		},
+		"libnvjpeg-dev-11-8": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libnvjpeg-dev-11-8",
+				"sha256": "0cf25650db2f3c201c5171c8eba48a779cdc42d125b55ae17cf8054e0139d2ce",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/libnvjpeg-dev-11-8_11.9.0.86-1_amd64.deb",
+				"version": "11.9.0.86-1"
+			}
+		},
+		"libp11-kit0": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libp11-kit0",
+				"sha256": "2c7f1c736ae5e36e8aa6858c25e62eee1bad3e2251b4a583fbc27432716f01dc",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/p/p11-kit/libp11-kit0_0.23.20-1build1_amd64.deb",
+				"version": "0.23.20-1build1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libp11-kit0",
+				"sha256": "3ba3cb8b5c263ee3a5419c69f2a6e5ff960def7a4a3325570f7d94cbaf7a99c4",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/p/p11-kit/libp11-kit0_0.23.20-1build1_arm64.deb",
+				"version": "0.23.20-1build1"
+			}
+		},
+		"libpam-modules": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libpam-modules",
+				"sha256": "7aa19ca36920d7b1d3314a334615fc2bd5ab4ea7fbcff9515d5c810b8ab6b180",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/p/pam/libpam-modules_1.3.1-5ubuntu4_amd64.deb",
+				"version": "1.3.1-5ubuntu4"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libpam-modules",
+				"sha256": "115e4201e7acb33eedc66d2c0a814c1eb93108a1c9869e13e48a8cc573849f26",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/p/pam/libpam-modules_1.3.1-5ubuntu4_arm64.deb",
+				"version": "1.3.1-5ubuntu4"
+			}
+		},
+		"libpam-modules-bin": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libpam-modules-bin",
+				"sha256": "a16bb785ff9b61aaf2aa53e9fefd78254ec000fb1c3bac461badaafe238757ab",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/p/pam/libpam-modules-bin_1.3.1-5ubuntu4_amd64.deb",
+				"version": "1.3.1-5ubuntu4"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libpam-modules-bin",
+				"sha256": "f9dda4bfd63fec774289c3c615638f80de83c3013657c2b07975048b51e3ddfa",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/p/pam/libpam-modules-bin_1.3.1-5ubuntu4_arm64.deb",
+				"version": "1.3.1-5ubuntu4"
+			}
+		},
+		"libpam0g": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libpam0g",
+				"sha256": "68eee51c674fdd7befdb9a2d76b59816384dbeb3a3e68787933a652d4058ba3d",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/p/pam/libpam0g_1.3.1-5ubuntu4_amd64.deb",
+				"version": "1.3.1-5ubuntu4"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libpam0g",
+				"sha256": "7c7fcb9765af337e075f3dc6cded9f8b6723c0e7068c61f6db73661332a97215",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/p/pam/libpam0g_1.3.1-5ubuntu4_arm64.deb",
+				"version": "1.3.1-5ubuntu4"
+			}
+		},
+		"libpcre2-8-0": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libpcre2-8-0",
+				"sha256": "a6b9aaf8d298da836bae2354a864fe0caba4c1230b3cc9f47b7d56100d7e29d4",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/p/pcre2/libpcre2-8-0_10.34-7_amd64.deb",
+				"version": "10.34-7"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libpcre2-8-0",
+				"sha256": "741444da6d973b2dcde1c700b0c85cd4a7d308dd016f226e80a007d10964b3de",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/p/pcre2/libpcre2-8-0_10.34-7_arm64.deb",
+				"version": "10.34-7"
+			}
+		},
+		"libpcre3": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libpcre3",
+				"sha256": "2e94c88431a1cfdc9f5be37a9063c617c2e85be4eeee194b3956b7a1d35040cd",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/p/pcre3/libpcre3_8.39-12build1_amd64.deb",
+				"version": "2:8.39-12build1"
+			}
+		},
+		"libperl5.30": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libperl5.30",
+				"sha256": "d97224261b755049e59c782ac59518d66172777a426dcd2a825f37fbdbab648f",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/p/perl/libperl5.30_5.30.0-9build1_amd64.deb",
+				"version": "5.30.0-9build1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libperl5.30",
+				"sha256": "47d6aae207530997520b9954150d10ff9254b8f7be3eddc372b9f11434e67aff",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/p/perl/libperl5.30_5.30.0-9build1_arm64.deb",
+				"version": "5.30.0-9build1"
+			}
+		},
+		"libpixman-1-0": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libpixman-1-0",
+				"sha256": "88d785cf14b1b91b2cb0ca30c7847077a3b615647490fb7d2f61820dec6bd80d",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/p/pixman/libpixman-1-0_0.38.4-0ubuntu1_amd64.deb",
+				"version": "0.38.4-0ubuntu1"
+			}
+		},
+		"libpng16-16": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libpng16-16",
+				"sha256": "6c512b7c67eafe0302026fa719f924bb77b39c57e1845a3d8b81cfd607c3b22c",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libp/libpng1.6/libpng16-16_1.6.37-2_amd64.deb",
+				"version": "1.6.37-2"
+			}
+		},
+		"libquadmath0": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libquadmath0",
+				"sha256": "a95f27c8d2a5e4e30ba09c6aa101bed235b0f2df64a62f8e66b548ca45a1bb2b",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-10/libquadmath0_10-20200411-0ubuntu1_amd64.deb",
+				"version": "10-20200411-0ubuntu1"
+			}
+		},
+		"libseccomp2": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libseccomp2",
+				"sha256": "484ddfe88dd977a452ea32669486e75598ce5855600506a1c868d4ae5b4992f2",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libs/libseccomp/libseccomp2_2.4.3-1ubuntu1_amd64.deb",
+				"version": "2.4.3-1ubuntu1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libseccomp2",
+				"sha256": "2acea5e9727e7f502de22c536916a64c8ed2042a07fbfa57efd7a8ecde982793",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libs/libseccomp/libseccomp2_2.4.3-1ubuntu1_arm64.deb",
+				"version": "2.4.3-1ubuntu1"
+			}
+		},
+		"libselinux1": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libselinux1",
+				"sha256": "1b8674b6f9e62fbae768d9ffbd686955d08db889ee4107d15ae02d1ec033cc7b",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libs/libselinux/libselinux1_3.0-1build2_amd64.deb",
+				"version": "3.0-1build2"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libselinux1",
+				"sha256": "91006c0db207cb6df4205db9c5a91309db58e7f4eef649093aa89def780e0e66",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libs/libselinux/libselinux1_3.0-1build2_arm64.deb",
+				"version": "3.0-1build2"
+			}
+		},
+		"libsemanage-common": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libsemanage-common",
+				"sha256": "4141f803c811277d2ea56568a676a79f06017b8c5eb57891741808a27c55fffb",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libs/libsemanage/libsemanage-common_3.0-1build2_all.deb",
+				"version": "3.0-1build2"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libsemanage-common",
+				"sha256": "4141f803c811277d2ea56568a676a79f06017b8c5eb57891741808a27c55fffb",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libs/libsemanage/libsemanage-common_3.0-1build2_all.deb",
+				"version": "3.0-1build2"
+			}
+		},
+		"libsemanage1": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libsemanage1",
+				"sha256": "0d0acf32d855061b30ee8d2a84421e08adbaa781ce8884730ec3c3e3b49bd1f9",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libs/libsemanage/libsemanage1_3.0-1build2_amd64.deb",
+				"version": "3.0-1build2"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libsemanage1",
+				"sha256": "6badb63e2650290230e42060c3461c5d30e1ed40dfdc8e1cfd80674cf22b76d0",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libs/libsemanage/libsemanage1_3.0-1build2_arm64.deb",
+				"version": "3.0-1build2"
+			}
+		},
+		"libsepol1": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libsepol1",
+				"sha256": "7cf76ac410c96372bea5c0801fd8c471bcf3bf6e2146df4466567e5e81b1b2b8",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libs/libsepol/libsepol1_3.0-1_amd64.deb",
+				"version": "3.0-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libsepol1",
+				"sha256": "e6e0a4fc9175f1dc8e3a90d0937975e25c834f20bb43999c411ca5a42a4268de",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libs/libsepol/libsepol1_3.0-1_arm64.deb",
+				"version": "3.0-1"
+			}
+		},
+		"libssl1.1": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libssl1.1",
+				"sha256": "09ee28588a1fb5613ddc6c26a992d5a76931b3cf22c022930da413a5e580599e",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2_amd64.deb",
+				"version": "1.1.1f-1ubuntu2"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libssl1.1",
+				"sha256": "a697e5826bdbed1324f3cce1335ef162bf49eed433eb662c6d43e69ebc4807b2",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2_arm64.deb",
+				"version": "1.1.1f-1ubuntu2"
+			}
+		},
+		"libstdc++-9-dev": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libstdc++-9-dev",
+				"sha256": "11196f4a1beb5ea0399052227aafe4c341c8de3602698b572333acee15f0088c",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-9/libstdc++-9-dev_9.3.0-10ubuntu2_amd64.deb",
+				"version": "9.3.0-10ubuntu2"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libstdc++-9-dev",
+				"sha256": "efbe47ef19a906dc0edd7031f0fabe332268adb7493b56587b30e181d5bef6b2",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-9/libstdc++-9-dev_9.3.0-10ubuntu2_arm64.deb",
+				"version": "9.3.0-10ubuntu2"
+			}
+		},
+		"libstdc++6": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libstdc++6",
+				"sha256": "c27cf8a12f15308b1ae533f1313ccd6800341f77cc6d3fca34061a5e507946aa",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-10/libstdc++6_10-20200411-0ubuntu1_amd64.deb",
+				"version": "10-20200411-0ubuntu1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libstdc++6",
+				"sha256": "bf29481e8373a4da958104daeaf32bb05fa405121a3aa0bbfbbd5d462725df3c",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-10/libstdc++6_10-20200411-0ubuntu1_arm64.deb",
+				"version": "10-20200411-0ubuntu1"
+			}
+		},
+		"libsystemd0": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libsystemd0",
+				"sha256": "113c2b292b6c1ac4f9177348a6c33f813fa251cd10d7a0c672718c1c899f3e71",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/s/systemd/libsystemd0_245.4-4ubuntu3_amd64.deb",
+				"version": "245.4-4ubuntu3"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libsystemd0",
+				"sha256": "92520a205afefb021bd89a06a377a641a64a8072c9ae6a5c36f89fde9d637646",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/s/systemd/libsystemd0_245.4-4ubuntu3_arm64.deb",
+				"version": "245.4-4ubuntu3"
+			}
+		},
+		"libtasn1-6": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libtasn1-6",
+				"sha256": "f4d9cbcc2c915a58557ecf3ea6ffb42321c8a2f444945af57e64d9ce18744329",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libt/libtasn1-6/libtasn1-6_4.16.0-2_amd64.deb",
+				"version": "4.16.0-2"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libtasn1-6",
+				"sha256": "2976e71392eddb28075d0711fa6099aa8b69fe4fe4c56512152cdfed601b3e8f",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libt/libtasn1-6/libtasn1-6_4.16.0-2_arm64.deb",
+				"version": "4.16.0-2"
+			}
+		},
+		"libtsan0": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libtsan0",
+				"sha256": "a5717ff5660d72d60c26f60a902c2204521d511ccd41289dbf0821d0d2d9e3ce",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-10/libtsan0_10-20200411-0ubuntu1_amd64.deb",
+				"version": "10-20200411-0ubuntu1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libtsan0",
+				"sha256": "8628f772f766521e343159a879616d0f6de6bbf067800adbdaf73a870bd41263",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-10/libtsan0_10-20200411-0ubuntu1_arm64.deb",
+				"version": "10-20200411-0ubuntu1"
+			}
+		},
+		"libubsan1": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libubsan1",
+				"sha256": "56491058bae43ae15e6ec53f3dc93077b7855c94c9e92f588a33c032b9254091",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-10/libubsan1_10-20200411-0ubuntu1_amd64.deb",
+				"version": "10-20200411-0ubuntu1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libubsan1",
+				"sha256": "ce36247c54345fca196ac6b32905e9721e9291d6577f5f79828d81ddd35eec48",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/g/gcc-10/libubsan1_10-20200411-0ubuntu1_arm64.deb",
+				"version": "10-20200411-0ubuntu1"
+			}
+		},
+		"libudev1": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libudev1",
+				"sha256": "ba6167777e012a638120a913c9d2d74c4b5346114d558d47c055fbf94cf6408d",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/s/systemd/libudev1_245.4-4ubuntu3_amd64.deb",
+				"version": "245.4-4ubuntu3"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libudev1",
+				"sha256": "e298137639d6ae27f4ca3a7ecf82e6de4a39c2d43b379b33b4ca7a46eb6336d4",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/s/systemd/libudev1_245.4-4ubuntu3_arm64.deb",
+				"version": "245.4-4ubuntu3"
+			}
+		},
+		"libunistring2": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libunistring2",
+				"sha256": "4ccfbc1e3a1cbc42616bd4fd407e01eb1434996c8500ac2fbccb7a2e1bcb166a",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libu/libunistring/libunistring2_0.9.10-2_amd64.deb",
+				"version": "0.9.10-2"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libunistring2",
+				"sha256": "22323af293a1d3377ba77b717c683a267c37d3da095798edf098aaa23e5a5439",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libu/libunistring/libunistring2_0.9.10-2_arm64.deb",
+				"version": "0.9.10-2"
+			}
+		},
+		"libuuid1": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libuuid1",
+				"sha256": "764851bea58689a957ad2f42a51b335a2792ec077b5743a2feebd69dcb6dfc88",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/u/util-linux/libuuid1_2.34-0.1ubuntu9_amd64.deb",
+				"version": "2.34-0.1ubuntu9"
+			}
+		},
+		"libx11-6": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libx11-6",
+				"sha256": "42330358d8814f2864add8a5159334854c758ec5ccd5658247f221c2c221c997",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libx/libx11/libx11-6_1.6.9-2ubuntu1_amd64.deb",
+				"version": "2:1.6.9-2ubuntu1"
+			}
+		},
+		"libx11-data": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libx11-data",
+				"sha256": "ddcf4113c2157f47198a62a2bf309b458538f36d2bf21222e54a5ee03fc1035c",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libx/libx11/libx11-data_1.6.9-2ubuntu1_all.deb",
+				"version": "2:1.6.9-2ubuntu1"
+			}
+		},
+		"libxau6": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libxau6",
+				"sha256": "58a0d78302a35e4584f96cd598af16b563ae7aae4af589e2a7cee6dc6666d979",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libx/libxau/libxau6_1.0.9-0ubuntu1_amd64.deb",
+				"version": "1:1.0.9-0ubuntu1"
+			}
+		},
+		"libxcb-icccm4": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libxcb-icccm4",
+				"sha256": "03cf5acb68f7d6bffa378f9d30e8d519ee3e5b10340df741af8c0d8bbaf5d3d4",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/x/xcb-util-wm/libxcb-icccm4_0.4.1-1.1_amd64.deb",
+				"version": "0.4.1-1.1"
+			}
+		},
+		"libxcb-image0": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libxcb-image0",
+				"sha256": "4002be5159fe91fcfbc6cdb68871163dbfd5c1092341bb51f26079e25b421d92",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/x/xcb-util-image/libxcb-image0_0.4.0-1build1_amd64.deb",
+				"version": "0.4.0-1build1"
+			}
+		},
+		"libxcb-keysyms1": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libxcb-keysyms1",
+				"sha256": "6cfbd86d2e1c66d2d8d0a6a17f27f0b825fc0d595647674714a2926a616bdae6",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/x/xcb-util-keysyms/libxcb-keysyms1_0.4.0-1build1_amd64.deb",
+				"version": "0.4.0-1build1"
+			}
+		},
+		"libxcb-randr0": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libxcb-randr0",
+				"sha256": "508da595aaca39deb9ab09e3aad5619ad7b7703032413d39a226a72a28f36765",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libx/libxcb/libxcb-randr0_1.14-2_amd64.deb",
+				"version": "1.14-2"
+			}
+		},
+		"libxcb-render-util0": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libxcb-render-util0",
+				"sha256": "5486323b1a43b8d4d1f19986fac99a25c00676cd5596926d973e4966c8f05a84",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/x/xcb-util-renderutil/libxcb-render-util0_0.3.9-1build1_amd64.deb",
+				"version": "0.3.9-1build1"
+			}
+		},
+		"libxcb-render0": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libxcb-render0",
+				"sha256": "d5423de927f855b1a266b9b66e16e4ae9e067664c9337b5aaf57fb98b4791647",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libx/libxcb/libxcb-render0_1.14-2_amd64.deb",
+				"version": "1.14-2"
+			}
+		},
+		"libxcb-shape0": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libxcb-shape0",
+				"sha256": "d6699f1b0182e7175ec4df6dfd26d91a4b4cbf9fd6ab16b7b430aca1bd54092f",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libx/libxcb/libxcb-shape0_1.14-2_amd64.deb",
+				"version": "1.14-2"
+			}
+		},
+		"libxcb-shm0": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libxcb-shm0",
+				"sha256": "776c691acd4fcdad314f0f09c98927a608cbc422007ce0f0c88e9d6711773217",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libx/libxcb/libxcb-shm0_1.14-2_amd64.deb",
+				"version": "1.14-2"
+			}
+		},
+		"libxcb-util1": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libxcb-util1",
+				"sha256": "83f9a455c8c6e787fcad27a84108704c7aa7669405f2af097cd25cfeeb10d82a",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/x/xcb-util/libxcb-util1_0.4.0-0ubuntu3_amd64.deb",
+				"version": "0.4.0-0ubuntu3"
+			}
+		},
+		"libxcb-xfixes0": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libxcb-xfixes0",
+				"sha256": "9fbb1bbb105749359d99580bd388bcfec472cf3c6ff7f3b353ee78e61ec1bb81",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libx/libxcb/libxcb-xfixes0_1.14-2_amd64.deb",
+				"version": "1.14-2"
+			}
+		},
+		"libxcb-xinerama0": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libxcb-xinerama0",
+				"sha256": "5c6c70c8da204c422807d7b19d415d7168bbf79f22696339b091d5a96ad5fe57",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libx/libxcb/libxcb-xinerama0_1.14-2_amd64.deb",
+				"version": "1.14-2"
+			}
+		},
+		"libxcb-xinput0": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libxcb-xinput0",
+				"sha256": "eefb2dc3f0065487a89ee3450c399266652c6857882a154d8c1e08567959a8aa",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libx/libxcb/libxcb-xinput0_1.14-2_amd64.deb",
+				"version": "1.14-2"
+			}
+		},
+		"libxcb-xkb1": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libxcb-xkb1",
+				"sha256": "300c205cf611ce1cfae89fb490c7aeec297aea0ccb82ea15d9941078a09882e3",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libx/libxcb/libxcb-xkb1_1.14-2_amd64.deb",
+				"version": "1.14-2"
+			}
+		},
+		"libxcb1": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libxcb1",
+				"sha256": "3fcab5cc6a70bcb1e4157748f9c626be21bc18b4c8459447e4c213cba98b9831",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libx/libxcb/libxcb1_1.14-2_amd64.deb",
+				"version": "1.14-2"
+			}
+		},
+		"libxdmcp6": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libxdmcp6",
+				"sha256": "8a612b0fb60a41b92698f87258bc5ec6467da88e38d3de79411e02921c42af87",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libx/libxdmcp/libxdmcp6_1.1.3-0ubuntu1_amd64.deb",
+				"version": "1:1.1.3-0ubuntu1"
+			}
+		},
+		"libxext6": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libxext6",
+				"sha256": "a3c546490c0ae0f9247cf8f2919fc7b99b386a538ac91ae48a4ebb96a2a69834",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libx/libxext/libxext6_1.3.4-0ubuntu1_amd64.deb",
+				"version": "2:1.3.4-0ubuntu1"
+			}
+		},
+		"libxkbcommon-x11-0": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libxkbcommon-x11-0",
+				"sha256": "929d5e4ee88d6f5f3b09e238ffae60d667e4c9c4731a0210227b092fc578c6ac",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libx/libxkbcommon/libxkbcommon-x11-0_0.10.0-1_amd64.deb",
+				"version": "0.10.0-1"
+			}
+		},
+		"libxkbcommon0": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libxkbcommon0",
+				"sha256": "b704ce1751dd938025b88a84c4054d4f36651661e473efeb3da8ed39aaf05868",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libx/libxkbcommon/libxkbcommon0_0.10.0-1_amd64.deb",
+				"version": "0.10.0-1"
+			}
+		},
+		"libxrender1": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libxrender1",
+				"sha256": "bfda6dc44a39d6500ac2974b3113105477adce457699aadd99f022d5a4858c1c",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libx/libxrender/libxrender1_0.9.10-1_amd64.deb",
+				"version": "1:0.9.10-1"
+			}
+		},
+		"libzstd1": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "libzstd1",
+				"sha256": "431fbd5fbefc800840f4635493f2ee7b480b982727d8c16fb875fa4b82a2b0ef",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libz/libzstd/libzstd1_1.4.4+dfsg-3_amd64.deb",
+				"version": "1.4.4+dfsg-3"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "libzstd1",
+				"sha256": "ca6c31a967c02ed6f171e21ddbfbe1baba174dc2c550d32b047faaad7c7bd3b0",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/libz/libzstd/libzstd1_1.4.4+dfsg-3_arm64.deb",
+				"version": "1.4.4+dfsg-3"
+			}
+		},
+		"linux-libc-dev": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "linux-libc-dev",
+				"sha256": "a7d59420134a8307eb11ef79b68e2b35cadc794a60f82c87f4583e37c763fd01",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/l/linux/linux-libc-dev_5.4.0-26.30_amd64.deb",
+				"version": "5.4.0-26.30"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "linux-libc-dev",
+				"sha256": "960d3d3d98ca3363878ac99d602c40ddb5e5f7e586a5f63cdfddcfe77595807f",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/l/linux/linux-libc-dev_5.4.0-26.30_arm64.deb",
+				"version": "5.4.0-26.30"
+			}
+		},
+		"make": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "make",
+				"sha256": "41e534af98cdb6219bc98fa4276d9c928a0862b8b373d49ee1fbe0ae5db64dc2",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/m/make-dfsg/make_4.2.1-1.2_amd64.deb",
+				"version": "4.2.1-1.2"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "make",
+				"sha256": "4856ecbb79f91dd33f46474fca70331cc0940f7ba79a182e4e93970473c5a3b0",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/m/make-dfsg/make_4.2.1-1.2_arm64.deb",
+				"version": "4.2.1-1.2"
+			}
+		},
+		"nsight-compute-2022.3.0": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "nsight-compute-2022.3.0",
+				"sha256": "25f6b985de448b90fa543f5b4d5e4d7807867f972f783256277c027a9e22a8f5",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/nsight-compute-2022.3.0_2022.3.0.22-1_amd64.deb",
+				"version": "2022.3.0.22-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "nsight-compute-2022.3.0",
+				"sha256": "99cf45dfb35199aef89f8a6663d1d4916e8aa0058dd6ff79665ad500f81b1167",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/arm64/nsight-compute-2022.3.0_2022.3.0.22-1_arm64.deb",
+				"version": "2022.3.0.22-1"
+			}
+		},
+		"nsight-systems-2022.4.2": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "nsight-systems-2022.4.2",
+				"sha256": "60b04b3149c4d42fad89ca448f2f0c69e28ab3f18b3c0f28649798bfe5778495",
+				"url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/nsight-systems-2022.4.2_2022.4.2.50-1_amd64.deb",
+				"version": "2022.4.2.50-32196742v0"
+			}
+		},
+		"openssl": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "openssl",
+				"sha256": "0b47fac737cfe18bcdd20773bc4a52485e21d18d144126c535d2c58ff58889bb",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/o/openssl/openssl_1.1.1f-1ubuntu2_amd64.deb",
+				"version": "1.1.1f-1ubuntu2"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "openssl",
+				"sha256": "c4921b99c49b66548c0b5670b22bffcecfbfe067b46a95e0c707e9d25b9b6dae",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/o/openssl/openssl_1.1.1f-1ubuntu2_arm64.deb",
+				"version": "1.1.1f-1ubuntu2"
+			}
+		},
+		"passwd": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "passwd",
+				"sha256": "c8f18e55f7a79172f81437c6e7b23e630ed12d97c7a927ed8047727362095eb3",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/s/shadow/passwd_4.8.1-1ubuntu5_amd64.deb",
+				"version": "1:4.8.1-1ubuntu5"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "passwd",
+				"sha256": "05ed9ae975b864b4d3912b37b08814f1c2e971fd10079ad78669e5be2c103056",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/s/shadow/passwd_4.8.1-1ubuntu5_arm64.deb",
+				"version": "1:4.8.1-1ubuntu5"
+			}
+		},
+		"patch": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "patch",
+				"sha256": "e29e780677057f72c82d7dde465fb9d9c3be629c527bcf8174f588232af23872",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/p/patch/patch_2.7.6-6_amd64.deb",
+				"version": "2.7.6-6"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "patch",
+				"sha256": "d80701e62a418ab4229cbed2c23603cd5d49268ca24583377a35ea1e6c91808a",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/p/patch/patch_2.7.6-6_arm64.deb",
+				"version": "2.7.6-6"
+			}
+		},
+		"perl": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "perl",
+				"sha256": "2c8532d339b5145853d358f7b3cd6567dac6770af86b0f4254611a569e515123",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/p/perl/perl_5.30.0-9build1_amd64.deb",
+				"version": "5.30.0-9build1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "perl",
+				"sha256": "141ce1673064c8d2f7ea55529bc0571e91e9c913ecca55934ecee894d2677e5e",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/p/perl/perl_5.30.0-9build1_arm64.deb",
+				"version": "5.30.0-9build1"
+			}
+		},
+		"perl-base": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "perl-base",
+				"sha256": "c54aba77f96790f4e9ab73c9075a046302d78d82501a2de52c0438ad829e17b8",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/p/perl/perl-base_5.30.0-9build1_amd64.deb",
+				"version": "5.30.0-9build1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "perl-base",
+				"sha256": "e7806567c36e07a8b84cb2ea762a29feaa88346a2c0b7d719e5515299cff687c",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/p/perl/perl-base_5.30.0-9build1_arm64.deb",
+				"version": "5.30.0-9build1"
+			}
+		},
+		"perl-modules-5.30": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "perl-modules-5.30",
+				"sha256": "85bf7d2a1e1fba022a1f246d4c60439b987f5b858b42207759b5cac5b67f9896",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/p/perl/perl-modules-5.30_5.30.0-9build1_all.deb",
+				"version": "5.30.0-9build1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "perl-modules-5.30",
+				"sha256": "85bf7d2a1e1fba022a1f246d4c60439b987f5b858b42207759b5cac5b67f9896",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/p/perl/perl-modules-5.30_5.30.0-9build1_all.deb",
+				"version": "5.30.0-9build1"
+			}
+		},
+		"sensible-utils": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "sensible-utils",
+				"sha256": "9ef20f3a2c2eac2d6d80b9ee0550f315d21fc7bc9e643f2f1b1e94c93f444601",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/s/sensible-utils/sensible-utils_0.0.12+nmu1_all.deb",
+				"version": "0.0.12+nmu1"
+			}
+		},
+		"tar": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "tar",
+				"sha256": "557e72166cd4ea6163ac32529cd90f4500959cdb6614009fac156ce85def5b96",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/t/tar/tar_1.30+dfsg-7_amd64.deb",
+				"version": "1.30+dfsg-7"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "tar",
+				"sha256": "fc5b5446e019d2fc397d614b1221bb04d87f2390d54531d1802f8444abea3da1",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/t/tar/tar_1.30+dfsg-7_arm64.deb",
+				"version": "1.30+dfsg-7"
+			}
+		},
+		"ubuntu-keyring": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "ubuntu-keyring",
+				"sha256": "7564f3f76fbc9f165ecc30e2cf2695d38b284e234bffa0c6441ff37f8a7aebd7",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/u/ubuntu-keyring/ubuntu-keyring_2020.02.11.2_all.deb",
+				"version": "2020.02.11.2"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "ubuntu-keyring",
+				"sha256": "7564f3f76fbc9f165ecc30e2cf2695d38b284e234bffa0c6441ff37f8a7aebd7",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/u/ubuntu-keyring/ubuntu-keyring_2020.02.11.2_all.deb",
+				"version": "2020.02.11.2"
+			}
+		},
+		"ucf": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "ucf",
+				"sha256": "0fd6782ac99f3d9814960edefd5cceaa84f3a33feec6a149f7edf59431f3a3ac",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/u/ucf/ucf_3.0038+nmu1_all.deb",
+				"version": "3.0038+nmu1"
+			}
+		},
+		"xkb-data": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "xkb-data",
+				"sha256": "890cc198b5a1023e3b3a879448524267d338b046a415bae7aff6216165bc4085",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/x/xkeyboard-config/xkb-data_2.29-2_all.deb",
+				"version": "2.29-2"
+			}
+		},
+		"xz-utils": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "xz-utils",
+				"sha256": "23298ca419d2e34e54ee74c472de1102da9cabc66b59a470f1a8a5405e4a7c14",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/x/xz-utils/xz-utils_5.2.4-1_amd64.deb",
+				"version": "5.2.4-1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "xz-utils",
+				"sha256": "619d2a859a48882be05a056ca99967e1adabc0134a5fb7385f0cb1b29e229a92",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/x/xz-utils/xz-utils_5.2.4-1_arm64.deb",
+				"version": "5.2.4-1"
+			}
+		},
+		"zlib1g": {
+			"amd64": {
+				"arch": "amd64",
+				"dependencies": [],
+				"name": "zlib1g",
+				"sha256": "dbfea100d99ffe17fcb94f62b396c0b27c15aa46e875556126c4f769dc77f1f1",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/z/zlib/zlib1g_1.2.11.dfsg-2ubuntu1_amd64.deb",
+				"version": "1:1.2.11.dfsg-2ubuntu1"
+			},
+			"arm64": {
+				"arch": "arm64",
+				"dependencies": [],
+				"name": "zlib1g",
+				"sha256": "eb740529da605507e7ae9e9263641bb49dd03de0568446f09b32e6341ca24778",
+				"url": "https://snapshot.ubuntu.com/ubuntu/20240301T030400Z/pool/main/z/zlib/zlib1g_1.2.11.dfsg-2ubuntu1_arm64.deb",
+				"version": "1:1.2.11.dfsg-2ubuntu1"
+			}
+		}
+	},
+	"version": 2
+}
