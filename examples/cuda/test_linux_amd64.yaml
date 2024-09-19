@@ -7,3 +7,4 @@ commandTests:
     expectedOutput:
       - Listing\.\.\.
       - cuda-11-8/now 11.8.0-1 amd64 \[installed,local\]
+      - cudnn9-cuda-11-8/now 9.4.0.58-1 amd64 \[installed,local\]
