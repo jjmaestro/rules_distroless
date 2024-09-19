@@ -1,0 +1,9 @@
+schemaVersion: "2.0.0"
+
+commandTests:
+  - name: "apt list --installed"
+    command: "apt"
+    args: ["list", "--installed"]
+    expectedOutput:
+      - Listing\.\.\.
+      - cuda-11-8/now 11.8.0-1 amd64 \[installed,local\]
