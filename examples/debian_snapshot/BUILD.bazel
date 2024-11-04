@@ -112,3 +112,16 @@ container_structure_test(
         "@platforms//os:linux",
     ],
 )
+
+genrule(
+    name = "testfoo",
+    srcs = [
+        "@bullseye//bash:bash_files",
+    ],
+    outs = ["out.txt"],
+    cmd = r"""{
+        echo $(locations @bullseye//bash:bash_files) |
+            tr ' ' '\n'
+    } >> $(OUTS)
+    """,
+)
