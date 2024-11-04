@@ -55,10 +55,7 @@ filegroup(
 
 filegroup(
     name = "files",
-    # TODO: is there a way to fix this?
-    # e.g. liberror-perl has files such as:
-    # /usr/share/man/man3/Error::Simple.3pm.gz
-    srcs = glob(["files/**"], exclude=["files/**/*:*"]),
+    srcs = glob(["files/**"]),
     visibility = ["//visibility:public"],
 )
 '''
