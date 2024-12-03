@@ -73,6 +73,12 @@ apt.install(
     nolock = True,
 )
 apt.install(
+    name = "bullseye_all",
+    lock = "//examples/debian_snapshot_all_arch:bullseye_all.lock.json",
+    manifest = "//examples/debian_snapshot_all_arch:bullseye_all.yaml",
+    nolock = True,
+)
+apt.install(
     name = "noble",
     lock = "//examples/ubuntu_snapshot:noble.lock.json",
     manifest = "//examples/ubuntu_snapshot:noble.yaml",
@@ -82,4 +88,4 @@ apt.install(
     manifest = "apt/tests/resolution/security.yaml",
     nolock = True,
 )
-use_repo(apt, "bullseye", "bullseye_nolock", "noble", "resolution_test", "resolution_test_resolve")
+use_repo(apt, "bullseye", "bullseye_all", "bullseye_nolock", "noble", "resolution_test", "resolution_test_resolve")
